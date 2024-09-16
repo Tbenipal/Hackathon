@@ -1,2 +1,23 @@
 # Hackathon
-Hackathon Assignment - Due: Oct 15th 2024
+TODO: Write a project description
+
+## Installation
+TODO: Describe the installation process
+
+## Usage
+TODO: Write usage instructions
+
+## Contributing
+Fork it!
+Create your feature branch: git checkout -b my-new-feature
+Commit your changes: git commit -am 'Add some feature'
+Push to the branch: git push origin my-new-feature
+Submit a pull request :D
+History
+TODO: Write history
+
+## Credits
+Dixie, Tapshveer, Meetinder, Thanse
+
+## License
+TODO: Write license
