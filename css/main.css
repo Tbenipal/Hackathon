@@ -92,8 +92,37 @@ nav ul {
   cursor: pointer;
 }
 
+/*Footer*/
+#footer-hero {
+  background-color: rgb(46, 46, 46);
+  color: #fff;
+  font-size: 12px;
+  padding-bottom: 35px;
+  padding-top: 1px;
+}
+
+.lines{ 
+  height: 2px;
+    background-color: white; 
+    margin: 5px 0; 
+}
+
+#footer-social-media{
+  text-align: center;
+  margin:10px 0;
+}
+
+.fanshawe-copyright{
+  text-align: center;
+  margin:10px 0;
+}
+
 /* Tablet Grid */
 @media screen and (min-width: 768px) {
+ 
+#footer-logo{
+  margin: 1px 30px; 
+}
 
   nav {
     position: relative;
@@ -139,9 +168,16 @@ nav ul {
   .hamburger {
     display: none;
   }
+
+
+
 }
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
-
+  #footer-logo{
+    margin: 1px 45px; 
+  }
+  
+  
 }
