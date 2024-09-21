@@ -95,6 +95,12 @@ nav ul {
   cursor: pointer;
 }
 
+#nav-logo {
+  position: absolute;
+  width: 200px;
+  padding-left: 15px;
+}
+
 /* Footer */
 #footer-hero {
   display: flex;
@@ -183,6 +189,11 @@ nav ul {
 
   .hamburger {
     display: none;
+  }
+
+  #nav-logo {
+    position: absolute;
+    width: 250px;
   }
 }
 
