@@ -23,10 +23,13 @@ html, body {
 }
 
 nav {
+  position: relative;
   justify-content: center;
   background-color: red;
   box-shadow: 0px 0px 7px 0px black;
   height: 75px;
+  z-index: 1;
+
 }
 
 nav ul {
@@ -34,7 +37,7 @@ nav ul {
 }
 
 .hamburger {
-  width: 7%;
+  width: 35px;
   float: right;
   margin: 20px 35px;
   max-width: 45px;
@@ -92,37 +95,50 @@ nav ul {
   cursor: pointer;
 }
 
-/*Footer*/
+/* Footer */
 #footer-hero {
-  background-color: rgb(46, 46, 46);
-  color: #fff;
-  font-size: 12px;
-  padding-bottom: 35px;
-  padding-top: 1px;
-}
-
-.lines{ 
-  height: 2px;
-    background-color: white; 
-    margin: 5px 0; 
-}
-
-#footer-social-media{
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
-  margin:10px 0;
+  position: relative;
 }
 
-.fanshawe-copyright{
-  text-align: center;
-  margin:10px 0;
+#footer-logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.line {
+  background-color: white;
+  height: 4px;
+  width: 55%;
+  margin: 10px auto;
+}
+
+#para-graph {
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#footer-social-media {
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* Tablet Grid */
 @media screen and (min-width: 768px) {
- 
-#footer-logo{
-  margin: 1px 30px; 
-}
 
   nav {
     position: relative;
@@ -168,16 +184,9 @@ nav ul {
   .hamburger {
     display: none;
   }
-
-
-
 }
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
-  #footer-logo{
-    margin: 1px 45px; 
-  }
-  
-  
+
 }
