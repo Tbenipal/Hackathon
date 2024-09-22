@@ -101,6 +101,18 @@ nav ul {
   padding-left: 15px;
 }
 
+/* Header */
+#header-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  background-color: lightgray;
+  height: 400px;
+}
+
+
 /* Footer */
 #footer-hero {
   display: flex;
@@ -161,7 +173,7 @@ nav ul {
   nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 10px 15px;
+    margin: 5px 10px;
   }
 
   nav ul li a {
