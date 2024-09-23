@@ -8,7 +8,7 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100%;
-  font-family: "Montserrat", "Poetsen One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   overflow-x: hidden;
@@ -69,7 +69,7 @@ nav ul {
   color: white;
   text-decoration: none;
   padding: 15px;
-  font-family: "Montserrat", "Poetsen One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   display: block;
@@ -110,6 +110,50 @@ nav ul {
   position: relative;
   background-color: lightgray;
   height: 400px;
+}
+
+#text-1 {
+  position: absolute;
+  top: 50px;
+  font-size: 28px;
+  font-weight: 900;
+  color: darkred;
+}
+
+#text-2 {
+  position: absolute;
+  top: 100px;
+  font-size: 26px;
+  font-weight: 200;
+  color: black;
+}
+
+#text-3 {
+  position: absolute;
+  top: 170px;
+  font-size: 32px;
+  font-weight: 400;
+  color: black;
+}
+
+#text-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+  padding: 125px 25px 0px 25px; /*trbl*/
+  text-align: center;
+}
+
+#text-5 {
+  position: absolute;
+  top: 325px;
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
 }
 
 
@@ -173,7 +217,7 @@ nav ul {
   nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 5px 10px;
+    margin: 10px 15px;
   }
 
   nav ul li a {
@@ -206,6 +250,62 @@ nav ul {
   #nav-logo {
     position: absolute;
     width: 250px;
+  }
+
+  /* Header */
+
+  #header-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    background-color: lightgray;
+    height: 400px;
+  }
+
+  #text-1 {
+    position: absolute;
+    top: 50px;
+    font-size: 32px;
+    font-weight: 900;
+    color: darkred;
+  }
+  
+  #text-2 {
+    position: absolute;
+    top: 100px;
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+  }
+  
+  #text-3 {
+    position: absolute;
+    top: 170px;
+    font-size: 36px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  #text-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 400;
+    color: black;
+    padding: 125px 25px 0px 25px; /*trbl*/
+    text-align: center;
+  }
+  
+  #text-5 {
+    position: absolute;
+    top: 325px;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
   }
 }
 
