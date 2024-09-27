@@ -108,16 +108,22 @@ nav ul {
   align-items: center;
   margin: 0 auto;
   position: relative;
-  background-color: lightgray;
+  background-image: url('../images/bgg.jpg');
+  background-size: cover;
   height: 400px;
 }
+
+@keyframes float {0% {transform: translateX(-100%) rotate(0deg);}25% {transform: translateX(0) rotate(20deg); }50% {transform: translateX(100%) rotate(-20deg); }75% {transform: translateX(0) rotate(10deg); }100% {transform: translateX(-100%) rotate(0deg);}}
+@keyframes float-back {0% {transform: translateX(100%) rotate(0deg);}25% {transform: translateX(0) rotate(-50deg); }50% {transform: translateX(-100%) rotate(50deg); }75% {transform: translateX(0) rotate(-90deg); }100% {transform: translateX(100%) rotate(0deg);}}
+@keyframes fadeInFromWhite {0% {color: white; opacity: 0;transform: translateY(20px); }100% {color: red; opacity: 1; transform: translateY(0); }}
 
 #text-1 {
   position: absolute;
   top: 50px;
   font-size: 28px;
   font-weight: 900;
-  color: darkred;
+  color: red;
+  animation: fadeInFromWhite 2s ease forwards;
 }
 
 #text-2 {
@@ -133,7 +139,8 @@ nav ul {
   top: 170px;
   font-size: 32px;
   font-weight: 400;
-  color: black;
+  color: red;
+  animation: fadeInFromWhite 2s ease forwards;
 }
 
 #text-4 {
@@ -151,9 +158,12 @@ nav ul {
 #text-5 {
   position: absolute;
   top: 325px;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
-  color: black;
+  color: red;
+  animation: fadeInFromWhite 2s ease forwards;
+  text-align: center;
+  
 }
 
 /* Body */
@@ -163,7 +173,7 @@ nav ul {
   align-items: center;
   margin: 0 auto;
   position: relative;
-  height: 325px;
+  height: 300px;
 }
 
 #text-66 {
@@ -176,8 +186,8 @@ nav ul {
 
 #explain-66 {
   position: absolute;
-  top: 85px;
-  font-size: 20px;
+  top: 75px;
+  font-size: 16px;
   font-weight: 200;
   padding-left: 30px;
   padding-right: 30px;
@@ -286,6 +296,29 @@ nav ul {
     width: 250px;
   }
 
+  .icon img{
+    height: 55px;
+    width:55px;
+  }
+  
+  .icon {
+    margin: 10px; 
+    animation: float 10s linear infinite; 
+    opacity: 1; 
+  }
+
+  #icon-hero-1{display: flex;position: relative; left:50px;top:-90px;flex-direction: column;}
+  #icon-hero-2{display: flex;position: relative; left:60px;top:-20px;flex-direction: column;}
+  #icon-hero-3{display: flex;position: relative; left:50px;top:80px;flex-direction: column;}
+  #icon-hero-4{display: flex;position: relative; right:50px;top:-90px;flex-direction: column;}
+  #icon-hero-5{display: flex;position: relative; right:60px;top:-20px;flex-direction: column;}
+  #icon-hero-6{display: flex;position: relative; right:60px;top:80px;flex-direction: column;}
+  
+
+
+  
+  
+
   /* Header */
 
   #header-hero {
@@ -294,21 +327,23 @@ nav ul {
     align-items: center;
     margin: 0 auto;
     position: relative;
-    background-color: lightgray;
-    height: 400px;
+    background-image: url('../images/bgg.jpg');
+    height: 645px;
+
   }
 
   #text-1 {
     position: absolute;
-    top: 50px;
+    top: 110px;
     font-size: 32px;
     font-weight: 900;
-    color: darkred;
+    color: red;
+    animation: fadeInFromWhite 2s ease forwards;
   }
   
   #text-2 {
     position: absolute;
-    top: 100px;
+    top: 199px;
     font-size: 30px;
     font-weight: 200;
     color: black;
@@ -316,10 +351,11 @@ nav ul {
   
   #text-3 {
     position: absolute;
-    top: 170px;
+    top: 265px;
     font-size: 36px;
-    font-weight: 400;
-    color: black;
+    font-weight: 900;
+    color: red;
+    animation: fadeInFromWhite 4s ease forwards;
   }
   
   #text-4 {
@@ -330,16 +366,17 @@ nav ul {
     font-size: 26px;
     font-weight: 400;
     color: black;
-    padding: 125px 25px 0px 25px; /*trbl*/
+    padding: 110px 25px 0px 25px; /*trbl*/
     text-align: center;
   }
   
   #text-5 {
     position: absolute;
-    top: 325px;
+    top: 440px;
     font-size: 32px;
-    font-weight: 600;
-    color: black;
+    font-weight: 400;
+    color: red;
+    animation: fadeInFromWhite 4.5s ease forwards;
   }
 
   /* Body */
@@ -372,5 +409,28 @@ nav ul {
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
+  #header-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    background-color: lightgray;
+    height: 645px;
+  }
 
+  #icon-hero-1{display: flex;position: relative; left:90px;top:-90px;flex-direction: column;}
+  #icon-hero-2{display: flex;position: relative; left:120px;top:-20px;flex-direction: column;}
+  #icon-hero-3{display: flex;position: relative; left:120px;top:40px;flex-direction: column;}
+  #icon-hero-4{display: flex;position: relative; right:90px;top:-90px;flex-direction: column;}
+  #icon-hero-5{display: flex;position: relative; right:120px;top:-20px;flex-direction: column;}
+  #icon-hero-6{display: flex;position: relative; right:120px;top:40px;flex-direction: column;}
+
+
+  
+  .icon img{
+    height: 85px;
+    width:85px;
+  }
+  
 }
