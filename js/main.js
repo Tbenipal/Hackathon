@@ -11,3 +11,15 @@ closeMenu.addEventListener("click", () => {
     closeMenu.classList.toggle("active");
     mobileMenu.classList.remove("active");
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const totalIcons = document.querySelectorAll('.icon');
+    totalIcons.forEach((icon, index) => {
+        if (index % 2 === 0) {
+            icon.style.animation = 'float 10s linear infinite';
+        } else {
+            icon.style.animation = 'float-back 10s linear infinite'; 
+        }
+        icon.style.animationDelay = '0s'; 
+    });
+});
