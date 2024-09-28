@@ -179,7 +179,6 @@ nav ul a {
 /* Body */
 
 /*Foundation 66 - Video Mobile*/
-
 #main-foundation-66{background-color: rgb(230, 230, 230); height:595px;}
 #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 280px;padding: 30px 20px;}
 #text-66 {position: absolute;top: 25px;left: 0px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
@@ -188,103 +187,21 @@ nav ul a {
 #demo-reel {position: absolute;top:35px;display: flex;justify-content: center;align-items: center;position: relative;width: 412px;}
 
 /*Event Details*/
-
-#event-details{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  height: 800px;
-  background-color: rgb(188, 187, 187);
-
-}
-
-#find-us{
-  padding: 10px 20px;
-  border: 2px solid red;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  position: absolute;
-  top: 313px;
-  left: 190px;
-}
-
-#event-01{
-  text-align: left;
-  justify-content: left;
-  position: absolute;
-  top: 120px;
-  left: 42px;
-  font-size: 18px;
-  font-weight: 200;
-  color: black;
-  width: 300px;
-}
-.header-event{
-  text-align: center;
-  position: absolute;
-  top:52px;
-  left:12px;
-  font-size: 26px;
-  font-weight: 200;
-  color: black;
-  width: 300px;
-}
-
-#event-02{
-  text-align: left;
-  justify-content: left;
-  position: absolute;
-  top: 510px;
-  left: 23px;
-  font-size: 18px;
-  font-weight: 200;
-  color: black;
-  background-color: white;
-  width: 340px;
-  padding: 10px 0px;
-  margin:0px;
-  border-radius:10px;
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.red-highlight{
-            color: black;          
-            padding: 10px;         
-            border-radius: 5px;   
-            width:150px;
-            text-align: center;
-            flex: 1; 
-            padding: 10px; 
-            text-align: center; 
-        
-}
-#date{
-  margin:0px 10px;
-}
-
-#venue{
-  margin:0px 10px;
-}
-
-#date p, #venue p{
-  margin:20px 0px;
-  text-align: left;
-  font-size: 16px;
-}
-
-#date span, #venue span{
-  background-color: red;
-  padding: 10px 37px;
-  border-radius: 8px;
- 
-}
-
-
+#event-details{display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 1252px;background-color: rgb(188, 187, 187);}
+#find-us{padding: 10px 20px;border:none;background-color: red;color: white;cursor: pointer;border-radius: 5px;position: absolute;top: 313px;left: 190px;}
+#event-01{text-align: left;justify-content: left;position: absolute;top: 120px;left: 42px;font-size: 18px;font-weight: 200;color: black;width: 300px;}
+.header-event{text-align: center;position: absolute;top:52px;left:8px;font-size: 26px;font-weight: 200;color: black;width: 300px;}
+#event-02{text-align: left;justify-content: left;position: absolute;top: 530px;left:25px;font-size: 18px;font-weight: 200;color: black;background-color: white;width: 340px;padding: 10px 0px;border-radius:10px;flex-wrap: wrap;display: flex;}
+.red-highlight{color: black;padding: 10px;border-radius: 5px;width:150px;text-align: center;flex: 1; padding: 10px; text-align: center;     }
+#date{margin:20px 10px;padding:0px;}
+#venue{margin:20px 10px;padding:0px;}
+#date p, #venue p{margin:20px 0px;text-align: left;font-size: 16px;}
+#date span, #venue span{background-color: red;padding: 10px 37px;border-radius: 8px;color:white;}
+#time-table{background-color: red;  margin:10px 20px 30px 20px;border-radius: 10px;color:white;height: 420px;}
+.separator {border: none; height: 1px; background-color: white; margin: 10px 0;        }
+.time-join{padding:14px 14px 0px 14px;  }
+.time{font-size: 22px;}
+.time-event{font-size: 15px;}
 
 /* Footer */
 #footer-hero {
@@ -467,10 +384,53 @@ nav ul a {
   #explain-66 {position: absolute;top: 100px;left: -80px;font-size: 19px;font-weight: 200;width: 300px;}
   #thank-jona{font-size: 16px;padding:60px 20px;font-weight: 200;width:350px;text-align: left;}
   #demo-reel{margin:20px 15px;width:600px; height: auto; padding:0px 5px;}
+
+
+  /*Event Details*/
+
+  #event-details{display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 900px;background-color: rgb(188, 187, 187);}
+  #find-us{border:none;padding: 10px 20px;background-color: red;color: white;cursor: pointer;border-radius: 5px;position: absolute;top: 260px;left: 280px;}
+  #event-01{text-align: left;justify-content: left;position: absolute;top: 160px;left: 45px;width: 400px;font-weight: 200;color: black;}
+  .header-event{text-align: center;position: absolute;top:68px;left: 400px;font-size: 26px;font-weight: 200;color: black;width: 300px;}
+  #event-02{text-align: left;justify-content: left;position: absolute;top: 160px;left: 490px;font-size: 18px;font-weight: 200;color: black;background-color: white;width: 380px;padding: 30px 10px;border-radius:10px;flex-wrap: wrap;display: flex;}
+  .red-highlight{color: black;padding: 10px;border-radius: 5px;width:100px;text-align: center;flex: 1; text-align: center; }
+  #date{margin:0px 10px;}
+  #venue{margin:0px 10px;}
+  #date p, #venue p{margin:22px 0px;text-align: left;font-size: 16px;width: 170px;}
+  #date span, #venue span{background-color: red;padding: 10px 38px;border-radius: 8px;color:white;}
+  #event-p1{font-size: 17px;}
+  #time-table{background-color: red;  margin:10px 5px 30px 10px;border-radius: 10px;color:white;height: 400px;}
+  .separator {border: none; height: 1px; background-color: white; margin: 10px 0;        }
+  .time-join{padding:14px 14px 0px 14px; }
+  .time{font-size: 22px;}
+  .time-event{font-size: 15px;}
+
+  
 }
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
+
+  
+  /*Event Details*/
+  #event-details{display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 888px;background-color: rgb(188, 187, 187);}
+  #find-us{border:none;padding: 10px 20px;background-color: red;color: white;cursor: pointer;border-radius: 5px;position: absolute;top: 310px;left: 280px;}
+  #event-01{text-align: left;justify-content: left;position: absolute;top: 165px;left: 45px;width: 400px;font-weight: 200;color: black;}
+  .header-event{text-align: center;position: absolute;top:68px;left: 500px;font-size: 26px;font-weight: 200;color: black;width: 300px;}
+  #event-02{text-align: left;justify-content: left;position: absolute;top: 160px;left: 540px;font-size: 18px;font-weight: 200;color: black;background-color: white;width: 700px;padding: 10px 40px;border-radius:10px;flex-wrap: wrap;display: flex;}
+  .red-highlight{color: black;padding: 10px;border-radius: 5px;width:150px;text-align: center;flex: 1; padding: 10px; text-align: center; }
+  #date{margin:0px 10px;padding:30px;}
+  #venue{margin:0px 10px;padding:30px;}
+  #date p, #venue p{margin:20px 50px;text-align: left;font-size: 16px;width:250px;}
+  #date span, #venue span{background-color: red;padding: 10px 60px;border-radius: 8px;color:white;}
+  #event-p1{font-size: 20px;}
+  #time-table{background-color: red;  margin:10px 20px 30px 20px;border-radius: 10px;color:white;height: 390px;width:900px;}
+  .separator {border: none; height: 1px; background-color: white; margin: 10px 0;        }
+  .time-join{padding:14px 14px 0px 14px;  }
+  .time{font-size: 22px;}
+  .time-event{font-size: 15px;}
+
+ /*Header Hero*/
   #header-hero {
     display: flex;
     justify-content: center;
