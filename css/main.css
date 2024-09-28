@@ -181,10 +181,10 @@ nav ul a {
 /*Foundation 66 - Video Mobile*/
 #main-foundation-66{background-color: rgb(230, 230, 230); height:595px;}
 #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 280px;padding: 30px 20px;}
-#text-66 {position: absolute;top: 25px;left: 0px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
-#explain-66 {position: absolute;top: 79px;left: 0px;font-size: 16px;font-weight: 200;width:350px; }
+#text-66 {position: absolute;top: 25px;left: 20px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
+#explain-66 {position: absolute;top: 79px;left: 20px;font-size: 16px;font-weight: 200;width:350px; }
 #thank-jona{font-size: 16px;padding:60px 15px;;font-weight: 200;width:350px;text-align: left;}
-#demo-reel {position: absolute;top:35px;display: flex;justify-content: center;align-items: center;position: relative;width: 412px;}
+#demo-reel {position: absolute;top:35px;display: flex;justify-content: center;align-items: center;position: relative;width: 100%;}
 
 /*Event Details*/
 #event-details{display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 1252px;background-color: rgb(188, 187, 187);}
@@ -202,6 +202,8 @@ nav ul a {
 .time-join{padding:14px 14px 0px 14px;  }
 .time{font-size: 22px;}
 .time-event{font-size: 15px;}
+
+/*Finalist*/
 
 /* Footer */
 #footer-hero {
@@ -377,13 +379,14 @@ nav ul a {
   }
 
 
-   /*Foundation Sixty6 - Video Section*/
-   #main-foundation-66{background-color: rgb(230, 230, 230); height:480px;}
+  /*Foundation Sixty6 - Video Section*/
+  #main-foundation-66{background-color: rgb(230, 230, 230); height:510px;}
   #foundation-66 {display: flex;justify-content: center;align-items: center; margin: 0 auto;position: relative;height: 300px;}
-  #text-66 {position: absolute;top: 30px;left:-80px;font-size: 32px;font-weight: 600;}
-  #explain-66 {position: absolute;top: 100px;left: -80px;font-size: 19px;font-weight: 200;width: 300px;}
-  #thank-jona{font-size: 16px;padding:60px 20px;font-weight: 200;width:350px;text-align: left;}
-  #demo-reel{margin:20px 15px;width:600px; height: auto; padding:0px 5px;}
+  #text-66 {position: absolute;top: 80px;left:70px;font-size: 32px;font-weight: 600;}
+  #explain-66 {position: absolute;top: 140px;left: 70px;font-size: 19px;font-weight: 200;width: 300px;}
+  #thank-jona{font-size: 16px;padding:60px 20px;font-weight: 200;width:350px;text-align:center; left:380px; position:absolute; top: 560px;}
+  .video-sec{position:relative; display:flex;flex-direction: column;}
+  #demo-reel{margin:20px 15px;width:560px; height: auto; padding:0px 5px; left:380px; top:-230px; position:absolute; }
 
 
   /*Event Details*/
@@ -430,6 +433,50 @@ nav ul a {
   .time{font-size: 22px;}
   .time-event{font-size: 15px;}
 
+  /*Finalist*/
+  
+  .image-foundation{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+  }
+
+  .finalist-info{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:390px;
+  }
+
+  .finalist-1{
+    text-align: center;
+    flex:1;
+    padding-right: 40px;
+    width:700px;
+
+  }
+  .finalist-2{
+    text-align: center;
+    flex:1;
+    padding-right: 40px;
+    width:700px;
+
+  }
+
+
+  .finalist-container{
+    padding:100px 100px;
+  }
+
+  .foundation-feature-1{
+    margin:0px 40px 0px 0px;
+  }
+
+  .foundation-feature-2{
+    margin:0px 0px 0px 40px;
+  }
+
+
  /*Header Hero*/
   #header-hero {
     display: flex;
@@ -455,12 +502,13 @@ nav ul a {
 
 
   /*Foundation Sixty6 - Video Section*/
-  #main-foundation-66{background-color: rgb(230, 230, 230); height:545px;}
-  #demo-reel{width:750px;height: auto; }
-  #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 20px auto;position: relative;height: 300px;}
-  #text-66 {position: absolute;top: 30px;left:-190px;font-size: 32px;font-weight: 600;}
-  #explain-66 {position: absolute;top: 100px;left: -190px;font-size: 19px;font-weight: 200;width: 400px;}
-  #thank-jona{font-size: 16px;padding:60px 20px;;font-weight: 200;width:350px;text-align: left;}
+  #main-foundation-66{background-color: rgb(230, 230, 230); height:510px;}
+  #foundation-66 {display: flex;justify-content: center;align-items: center; margin: 0 auto;position: relative;height: 300px;}
+  #text-66 {position: absolute;top: 80px;left:70px;font-size: 32px;font-weight: 600;}
+  #explain-66 {position: absolute;top: 140px;left: 70px;font-size: 19px;font-weight: 200;width: 400px;}
+  #thank-jona{font-size: 16px;padding:60px 20px;font-weight: 200;width:350px;text-align:center; left:380px; position:absolute; top: 560px;}
+  .video-sec{position:relative; display:flex;flex-direction: column;}
+  #demo-reel{margin:20px 15px;width:800px; height: auto; padding:0px 5px; left:550px; top:-250px; position:absolute; }
 
 }
 
