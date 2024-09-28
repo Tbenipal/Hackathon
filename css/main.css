@@ -117,6 +117,12 @@ nav ul a {
   height: 400px;
 }
 
+#demo-reel {
+  width: 100%; 
+  max-width: 730px; 
+  height: auto; 
+}
+
 @keyframes float {0% {transform: translateX(-100%) rotate(0deg);}25% {transform: translateX(0) rotate(20deg); }50% {transform: translateX(100%) rotate(-20deg); }75% {transform: translateX(0) rotate(10deg); }100% {transform: translateX(-100%) rotate(0deg);}}
 @keyframes float-back {0% {transform: translateX(100%) rotate(0deg);}25% {transform: translateX(0) rotate(-50deg); }50% {transform: translateX(-100%) rotate(50deg); }75% {transform: translateX(0) rotate(-90deg); }100% {transform: translateX(100%) rotate(0deg);}}
 @keyframes fadeInFromWhite {0% {color: white; opacity: 0;transform: translateY(20px); }100% {color: red; opacity: 1; transform: translateY(0); }}
@@ -171,39 +177,15 @@ nav ul a {
 }
 
 /* Body */
-#foundation-66 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  height: 300px;
-}
 
-#text-66 {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  font-size: 30px;
-  font-weight: 600;
-}
+/*Foundation 66 - Video Mobile*/
 
-#explain-66 {
-  position: absolute;
-  top: 75px;
-  font-size: 16px;
-  font-weight: 200;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-#demo-reel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-}
+#main-foundation-66{background-color: rgb(230, 230, 230);height: 600px;}
+#foundation-66 {display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 280px;padding: 30px 20px;}
+#text-66 {position: absolute;top: 25px;left: 0px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
+#explain-66 {position: absolute;top: 79px;left: 0px;font-size: 16px;font-weight: 200;width:350px; }
+#thank-jona{font-size: 16px;padding:60px 15px;;font-weight: 200;width:350px;text-align: left;}
+#demo-reel {position: absolute;top:35px;display: flex;justify-content: center;align-items: center;position: relative;width: 412px;}
 
 /* Footer */
 #footer-hero {
@@ -378,32 +360,14 @@ nav ul a {
     animation: fadeInFromWhite 4.5s ease forwards;
   }
 
-  /* Body */
-  #foundation-66 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  height: 300px;
-  }
 
-  #text-66 {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  font-size: 32px;
-  font-weight: 600;
-  }
-
-  #explain-66 {
-  position: absolute;
-  top: 100px;
-  font-size: 22px;
-  font-weight: 200;
-  padding-left: 30px;
-  padding-right: 30px;
-  }
+   /*Foundation Sixty6 - Video Section*/
+  #main-foundation-66{padding:30px 40px;}
+  #foundation-66 {display: flex;justify-content: center;align-items: center; margin: 0 auto;position: relative;height: 300px;}
+  #text-66 {position: absolute;top: 30px;left:-80px;font-size: 32px;font-weight: 600;}
+  #explain-66 {position: absolute;top: 100px;left: -80px;font-size: 19px;font-weight: 200;width: 300px;}
+  #thank-jona{font-size: 16px;padding:60px 20px;font-weight: 200;width:350px;text-align: left;}
+  #demo-reel{margin:20px 15px;width:600px; height: auto; padding:0px 5px;}
 }
 
 /* Desktop Grid */
@@ -418,6 +382,11 @@ nav ul a {
     height: 645px;
   }
 
+  .icon img{
+    height: 85px;
+    width:85px;
+  }
+
   #icon-hero-1{display: flex;position: relative; left:90px;top:-90px;flex-direction: column;}
   #icon-hero-2{display: flex;position: relative; left:120px;top:-20px;flex-direction: column;}
   #icon-hero-3{display: flex;position: relative; left:120px;top:40px;flex-direction: column;}
@@ -426,10 +395,20 @@ nav ul a {
   #icon-hero-6{display: flex;position: relative; right:120px;top:40px;flex-direction: column;}
 
 
-  
-  .icon img{
-    height: 85px;
-    width:85px;
-  }
-  
+  /*Foundation Sixty6 - Video Section*/
+  #demo-reel{width:750px;height: auto; }
+  #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 20px auto;position: relative;height: 300px;}
+  #text-66 {position: absolute;top: 30px;left:-190px;font-size: 32px;font-weight: 600;}
+  #explain-66 {position: absolute;top: 100px;left: -190px;font-size: 19px;font-weight: 200;width: 400px;}
+  #thank-jona{font-size: 16px;padding:60px 20px;;font-weight: 200;width:350px;text-align: left;}
+
+}
+
+  /*Video Color Theme*/
+:root{
+  --plyr-color-main: red;
+  --plyr-control-icon-size: 15px;
+  --plyr-control-radius: 20px;
+  --plyr-font-family: Helvetica, Arial, sans-serif;
+  --plyr-control-spacing: 15px; 
 }

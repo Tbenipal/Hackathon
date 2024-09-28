@@ -1,4 +1,5 @@
 // Variables
+const player = new Plyr('video');
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobile-navbar");
 const closeMenu = document.querySelector(".close-burger");
