@@ -180,7 +180,7 @@ nav ul a {
 
 /*Foundation 66 - Video Mobile*/
 
-#main-foundation-66{background-color: rgb(230, 230, 230);height: 600px;}
+#main-foundation-66{background-color: rgb(230, 230, 230); height:595px;}
 #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 280px;padding: 30px 20px;}
 #text-66 {position: absolute;top: 25px;left: 0px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
 #explain-66 {position: absolute;top: 79px;left: 0px;font-size: 16px;font-weight: 200;width:350px; }
@@ -362,7 +362,7 @@ nav ul a {
 
 
    /*Foundation Sixty6 - Video Section*/
-  #main-foundation-66{padding:30px 40px;}
+   #main-foundation-66{background-color: rgb(230, 230, 230); height:480px;}
   #foundation-66 {display: flex;justify-content: center;align-items: center; margin: 0 auto;position: relative;height: 300px;}
   #text-66 {position: absolute;top: 30px;left:-80px;font-size: 32px;font-weight: 600;}
   #explain-66 {position: absolute;top: 100px;left: -80px;font-size: 19px;font-weight: 200;width: 300px;}
@@ -396,6 +396,7 @@ nav ul a {
 
 
   /*Foundation Sixty6 - Video Section*/
+  #main-foundation-66{background-color: rgb(230, 230, 230); height:545px;}
   #demo-reel{width:750px;height: auto; }
   #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 20px auto;position: relative;height: 300px;}
   #text-66 {position: absolute;top: 30px;left:-190px;font-size: 32px;font-weight: 600;}
