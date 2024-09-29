@@ -257,12 +257,12 @@ nav ul {
   nav ul li {
     display: inline-block;
     line-height: 80px;
-    margin: 5px 15px;
+    margin: 5px 10px;
   }
 
   nav ul li a {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     padding: 7px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -411,6 +411,23 @@ nav ul {
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
+
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 5px 15px;
+  }
+
+  nav ul li a {
+    color: white;
+    font-size: 24px;
+    padding: 7px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
   #header-hero {
     display: flex;
     justify-content: center;
@@ -433,5 +450,42 @@ nav ul {
   .icon img{
     height: 85px;
     width:85px;
-  } 
+  }
+
+  #foundation-66 {
+    display: flex;  /* Switch to flexbox */
+    flex-direction: row;  /* Arrange children in a row (side by side) */
+    justify-content: space-between;  /* Optional: Space between the two items */
+    align-items: flex-start;  /* Align items at the start */
+    max-height: 400px;
+  }
+
+  #text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;  /* Take less space compared to the video */
+    padding-right: 30px;
+  }
+
+  #text-66, #explain-66 {
+    flex: 1;  /* Take equal space */
+    padding-right: 30px;  /* Add some space between the text and the video */
+  }
+
+  #explain-66 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 0;
+  }
+
+  #demo-reel {
+    flex: 1;  /* Take more space compared to the text */
+    width: 100%;  /* Makes the video larger */
+    height: auto;  /* Keeps the aspect ratio */
+    max-width: 650px;  /* Limits how large the video can grow */
+    background-color: white;
+    padding: 30px;
+  }
 }
