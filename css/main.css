@@ -397,23 +397,23 @@ nav ul {
 
   /* Body */
   #foundation-66 {
-    display: flex;  /* Switch to flexbox */
-    flex-direction: row;  /* Arrange children in a row (side by side) */
-    justify-content: space-between;  /* Optional: Space between the two items */
-    align-items: flex-start;  /* Align items at the start */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     max-height: 400px;
   }
 
   #text-container {
     display: flex;
     flex-direction: column;
-    flex: 1;  /* Take less space compared to the video */
+    flex: 1;
     padding-right: 30px;
   }
 
   #text-66, #explain-66 {
-    flex: 1;  /* Take equal space */
-    padding-right: 30px;  /* Add some space between the text and the video */
+    flex: 1;
+    padding-right: 30px;
   }
 
   #explain-66 {
@@ -425,10 +425,10 @@ nav ul {
   }
 
   #demo-reel {
-    flex: 1;  /* Take more space compared to the text */
-    width: 100%;  /* Makes the video larger */
-    height: auto;  /* Keeps the aspect ratio */
-    max-width: 650px;  /* Limits how large the video can grow */
+    flex: 1;
+    width: 100%;
+    height: auto;
+    max-width: 650px;
     background-color: white;
     padding: 30px;
   }
