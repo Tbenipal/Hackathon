@@ -360,11 +360,19 @@ nav ul {
 }
 
 /*Finalist*/
+
+.container-finalist{
+  margin-bottom:10px;
+  height: 300px;
+  padding:10px
+}
+
+
 #finalist{
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 480px;
 }
 
 #header-finalist {
@@ -385,7 +393,7 @@ nav ul {
   margin-top:5px;
 }
 .container-last-finalist{
-  margin-top:30px;
+  margin-top:220px;
   margin-bottom:70px;
 }
 .finalist-image{
@@ -395,6 +403,7 @@ nav ul {
   border-radius: 15px; 
   display: block; 
   margin: 30px auto; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
 }
 
 #finalist-number1{
@@ -448,8 +457,6 @@ nav ul {
   border-radius: 10px;
   border:none;
 }
-
-
 
 
 /* Tablet Grid */
@@ -526,22 +533,21 @@ nav ul {
   #icon-hero-6{display: flex;position: relative; right:60px;top:80px;flex-direction: column;}
   
 
-
   /*Finalist*/
-  #finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 600px;}
-  #header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+  #finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 410px;}
+  #header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
   .finalist-row{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap:160px;
+    gap:140px;
     padding:10px 40px;
     margin-top:5px;
   }
   .container-last-finalist{
-    margin-top:5px;
-    margin-bottom:40px;
-    height: 400px;
+    margin-top:50px;
+    margin-bottom:90px;
+  
   }
   .finalist-image{
     width: 80%; 
@@ -551,10 +557,13 @@ nav ul {
     display: block; 
     margin: 10px auto; 
     padding:0px 0px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
   }
     
   .container-finalist{
-    height: 400px;
+    margin-bottom:40px;
+    height: 360px;
+    padding:40px
   }
 
   .finalist-last-image{
@@ -752,15 +761,40 @@ nav ul {
     padding: 25px 0;
   }
 
-  /*finalist*/
-  .container-last-finalist{
-  margin:120px 20px 170px 20px;}
-       
-  .finalist-row{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap:380px;
-        margin-top:5px;
-      }
+/*Finalist*/
+#finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 600px;}
+#header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+.finalist-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:250px;
+  padding:10px 10px;
+  margin-top:5px;
+}
+.container-last-finalist{
+  margin-top:25px;
+  margin-bottom:120px;
+  height: 450px;
+
+}
+.finalist-image{
+  width: 80%; 
+  max-width: 600px; 
+  height: auto; 
+  border-radius: 15px; 
+  display: block; 
+  margin: 10px auto; 
+  padding:0px 0px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+}
+  
+.container-finalist{
+  height: 400px;
+}
+
+.finalist-last-image{
+  width: 40%; 
+  max-width: 600px; 
+}
 }
