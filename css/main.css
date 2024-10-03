@@ -359,6 +359,96 @@ nav ul {
   padding-bottom: 25px;
 }
 
+/*Finalist*/
+#finalist{
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+#header-finalist {
+  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 45px 0px 0px 0px;
+  color: red;
+  animation: fadeInFromWhite 2s ease forwards;
+}
+
+.finalist-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:170px;
+  margin-top:5px;
+}
+.container-last-finalist{
+  margin-top:30px;
+  margin-bottom:70px;
+}
+.finalist-image{
+  width: 80%; 
+  max-width: 600px; 
+  height: auto; 
+  border-radius: 15px; 
+  display: block; 
+  margin: 30px auto; 
+}
+
+#finalist-number1{
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+#finalist-number2{
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+#finalist-number3{
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+
+.btnFinalist1{
+  background-color: red;
+  color:white;
+  padding: 10px 7px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  border:none;
+}
+
+.btnFinalist2{
+  background-color: red;
+  color:white;
+  padding: 10px 7px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  border:none;
+}
+
+.btnFinalist3{
+  background-color: red;
+  color:white;
+  padding: 10px 7px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  border:none;
+}
+
 
 
 
@@ -437,6 +527,40 @@ nav ul {
   
 
 
+  /*Finalist*/
+  #finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 600px;}
+  #header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+  .finalist-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:160px;
+    padding:10px 40px;
+    margin-top:5px;
+  }
+  .container-last-finalist{
+    margin-top:5px;
+    margin-bottom:40px;
+    height: 400px;
+  }
+  .finalist-image{
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    border-radius: 15px; 
+    display: block; 
+    margin: 10px auto; 
+    padding:0px 0px;
+  }
+    
+  .container-finalist{
+    height: 400px;
+  }
+
+  .finalist-last-image{
+    width: 40%; 
+    max-width: 600px; 
+  }
   
   
 
@@ -627,4 +751,16 @@ nav ul {
     border-radius:10px;
     padding: 25px 0;
   }
+
+  /*finalist*/
+  .container-last-finalist{
+  margin:120px 20px 170px 20px;}
+       
+  .finalist-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:380px;
+        margin-top:5px;
+      }
 }
