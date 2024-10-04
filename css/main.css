@@ -318,9 +318,9 @@ nav ul {
 }
 
 /* Project Exhibit */
+
 .container-exhibit{
   margin-bottom:10px;
-  height: 300px;
   padding:10px
 }
 
@@ -329,7 +329,7 @@ nav ul {
   align-items: center;
   margin: 0 auto;
   width: 100%;
-  height: 480px;
+  height: auto;
 }
 
 #header-exhibit {
@@ -343,8 +343,8 @@ nav ul {
 }
 
 .container-last-exhibit{
-  margin-top:220px;
-  margin-bottom:70px;
+  margin-top: 0px;
+  margin-bottom: 70px;
 }
 .exhibit-image{
   width: 80%; 
