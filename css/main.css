@@ -356,6 +356,54 @@ nav ul {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
 }
 
+/* Interactive Media design */
+#media-design {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+}
+
+#media-design img {
+  padding-top: 50px;
+  width: 80%;
+}
+
+
+#media-header {
+  font-size: 5vw;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#media-body {
+  font-size: 3vw;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#media-more {
+  position: relative;
+  bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  padding: 10px 5px;
+  width: 100px;
+  height: auto;
+  border: 0;
+}
+
 
 /* Footer */
 #footer-hero {
@@ -752,6 +800,38 @@ nav ul {
     border-radius:10px;
     padding: 25px 0;
   }
+
+  /* Interactive Media design */
+#media-design {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+}
+
+#media-design img {
+  padding-top: 50px;
+  width: 80%;
+}
+
+
+#media-header {
+  font-size: 4vw;
+  font-weight: 600;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#media-body {
+  font-size: 2.5vw;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+}
 }
 
 /* Desktop Grid */
@@ -899,4 +979,36 @@ nav ul {
   width: 40%; 
   max-width: 600px; 
 }
+
+  /* Interactive Media design */
+  #media-design {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+  }
+  
+  #media-design img {
+    padding-top: 50px;
+    width: 50%;
+  }
+  
+  
+  #media-header {
+    font-size: 3vw;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #media-body {
+    font-size: 1.5vw;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+  }
 }
