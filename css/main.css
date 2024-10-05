@@ -181,10 +181,16 @@ nav ul a {
 /*Foundation 66 - Video Mobile*/
 #main-foundation-66{background-color: rgb(230, 230, 230); height:595px;}
 #foundation-66 {display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 280px;padding: 30px 20px;}
-#text-66 {position: absolute;top: 25px;left: 20px;font-size: 30px;font-weight: 600;width: 500px;color:red;}
 #explain-66 {position: absolute;top: 79px;left: 20px;font-size: 16px;font-weight: 200;width:350px; }
 #thank-jona{font-size: 16px;padding:60px 15px;;font-weight: 200;width:350px;text-align: left;}
 #demo-reel {position: absolute;top:35px;display: flex;justify-content: center;align-items: center;position: relative;width: 100%;}
+#text-66 {
+  font-size: 30px;
+  font-weight: 600;
+  color: red;
+  margin-bottom: 20px;
+  justify-content: center;text-align: center;font-size: 30px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;
+}
 
 /*Event Details*/
 #event-details{display: flex;justify-content: center;align-items: center;margin: 0 auto;position: relative;height: 1252px;background-color: rgb(188, 187, 187);}
