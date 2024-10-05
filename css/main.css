@@ -334,50 +334,52 @@ nav ul {
 
 /* Interactive Media design */
 #media-design {
-  position: relative;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  text-align: left;
   background-color: lightgrey;
+  align-items: center;
+  margin: 0 auto;
   width: 100%;
   height: auto;
 }
 
-#media-design img {
-  padding-top: 50px;
-  width: 80%;
+#media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding-bottom: 10%;
 }
 
+#media-container img {
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
-#media-header {
+#media-container #media-header {
   font-size: 5vw;
   font-weight: 600;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
-#media-body {
+#media-container #media-body {
   font-size: 3vw;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  padding: 5% 10%;
 }
 
 #media-more {
-  position: relative;
-  bottom: 35px;
-  display: flex;
-  flex-direction: row;
   text-align: center;
-  justify-content: center;
+  font-size: 2.5vw;
   background-color: red;
   color: white;
   padding: 10px 5px;
-  width: 100px;
+  width: 20%;
   height: auto;
   border: 0;
+  cursor: pointer;
 }
 
 
@@ -847,36 +849,54 @@ nav ul {
   }
 
   /* Interactive Media design */
-#media-design {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  background-color: lightgrey;
-  width: 100%;
-  height: auto;
-}
-
-#media-design img {
-  padding-top: 50px;
-  width: 80%;
-}
-
-
-#media-header {
-  font-size: 4vw;
-  font-weight: 600;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-#media-body {
-  font-size: 2.5vw;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 50px;
-}
+  #media-design {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  #media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 10%;
+  }
+  
+  #media-container img {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-left: 15%;
+  }
+  
+  #media-container #media-header {
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
+  
+  #media-container #media-body {
+    font-size: 2vw;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+  
+  #media-more {
+    text-align: center;
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding: 10px 5px;
+    width: 15%;
+    height: auto;
+    border: 0;
+    cursor: pointer;
+  }
 }
 
 /* Desktop Grid */
@@ -1040,32 +1060,50 @@ nav ul {
   /* Interactive Media design */
   #media-design {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    text-align: left;
     background-color: lightgrey;
+    align-items: center;
+    margin: 0 auto;
     width: 100%;
     height: auto;
   }
   
-  #media-design img {
-    padding-top: 50px;
-    width: 50%;
+  #media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 10%;
   }
   
-  
-  #media-header {
-    font-size: 3vw;
-    font-weight: 600;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  
-  #media-body {
-    font-size: 1.5vw;
+  #media-container img {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
     padding-left: 25%;
     padding-right: 25%;
-    padding-bottom: 50px;
+  }
+  
+  #media-container #media-header {
+    font-size: 2.5vw;
+    font-weight: 600;
+  }
+  
+  #media-container #media-body {
+    font-size: 1.5vw;
+    padding: 3% 25%;
+  }
+  
+  #media-more {
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: red;
+    color: white;
+    padding: 10px 5px;
+    width: 12%;
+    height: auto;
+    border: 0;
+    cursor: pointer;
   }
 }
