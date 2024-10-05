@@ -1,11 +1,15 @@
-# Project Name
-TODO: Write a project description
+# Hackathon Assignment
+This is the Hackathon assignment based on the fanshawe showcase website making the alternative version of Fanshaweinteractive.ca
 
 ## Installation
-TODO: Describe the installation process
+No installation required simply run the index.html through webpage
 
 ## Usage
-TODO: Write usage instructions
+1. Run index.html
+2. Scroll down to Explore or use the nav to locate
+3. Reach out for inquires
+4. Enjoy!
+
 
 ## Contributing
 Fork it!
@@ -15,10 +19,10 @@ Push to the branch: git push origin my-new-feature
 Submit a pull request :D
 
 ## History
-TODO: Write history
+2024 - 2025
 
 ## Credits
-TODO: Write credits
+Dixie, Tapshveer, Meetinder, Thansee
 
 ## License
-TODO: Write license
+MIT License
