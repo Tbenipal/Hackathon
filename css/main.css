@@ -560,6 +560,15 @@ nav ul {
 #students-exhibit-switch{height: 320px;width: 360px;margin:0px 25px 0px 25px;border-radius: 12px;}
 #project-header {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 40px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
 
+ /*Meet Developers- mobile*/
+ #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 45px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+ #meet-developers {display: flex;flex-direction: column;}
+.container-meet-1 {width: 100%; margin: 10px 0; display: flex;flex-direction: row;gap: 20px; justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;padding: 0px 50px;}
+.container-meet-2 {width: 100%; margin: 10px 0px 65px 0px;; display: flex;flex-direction: row;gap: 20px; justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;padding: 0px 18px;}
+.developer {padding: 15px; background-color: red;height: auto; width: 85%;max-width: 250px; border-radius: 12px;color: white;text-align: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
+.developer p:first-child {font-size: 18px; font-weight: 900;}
+.developer p {transform: translateZ(10px); }
+.developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
 
 
 /* Tablet Grid */
@@ -940,6 +949,16 @@ nav ul {
 .line-1-1, .line-1-2, .line-2-1, .line-2-2{border-radius: 12px;}
 }
 
+ /*Meet Developers- tablet*/
+ #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+ #meet-developers{display:flex;flex-direction: column;}
+ .container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+ .container-meet-2{display: flex;flex-direction: row;gap: 100px; margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+ .developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
+ .developer p:first-child{font-size:25px;font-weight: 900;}
+ .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
+ .developer p{transform: translateZ(20px);}
+
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
 
@@ -1165,4 +1184,15 @@ nav ul {
   .line-2-container .line-2-1{width: 350px;height: 380px;}
   .line-2-container .line-2-2{width: 650px;height: 380px;}
   .line-1-1, .line-1-2, .line-2-1, .line-2-2{border-radius: 12px;}  
+
+  /*Meet Developers- Desktop*/
+  #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+  #meet-developers{display:flex;flex-direction: column;}
+  .container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+  .container-meet-2{display: flex;flex-direction: row;gap: 100px;margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+  .developer:hover{transition: all 0.2s linear;animation: developercard 4.5s forwards;}
+  .developer p:first-child{font-size:25px;font-weight: 900;}
+  .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
+  .developer p{transform: translateZ(20px);}
+  
 }
