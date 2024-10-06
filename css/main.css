@@ -570,6 +570,15 @@ nav ul {
 .developer p {transform: translateZ(10px); }
 .developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
 
+/*student showcase portfolio mobile*/
+#header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0 30px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+#student-portfolio {display: flex;flex-direction: column;padding: 0px 0px;background-color: rgb(212, 208, 208);}
+.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10{transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 30px 0px 0px 0px;display: flex;gap: 10px;justify-content: center;}
+.students-card {margin: 0 20px;flex: 1 1 calc(50% - 20px); box-sizing: border-box; }
+.student-container-port-11 {transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0 80px; display: flex;gap: 10px;justify-content: center;}
+.students-card {text-align: center;align-content: center;transition: all 0.7s ease-out;padding: 40px 20px;background-color: white;color: black;border-radius: 12px;}
+.p-name {padding: 10px 20px;border-radius: 8px;background-color: red;color: white;}
+
 
 /* Tablet Grid */
 @media screen and (min-width: 768px) {
@@ -959,6 +968,16 @@ nav ul {
  .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
  .developer p{transform: translateZ(20px);}
 
+/*Student Show case port - tablet*/
+#header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0 30px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+#student-portfolio {display: flex;flex-direction: column;padding: 0px 45px;background-color: rgb(212, 208, 208);}
+.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10{transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0px 0px 0px;display: flex;gap: 40px;justify-content: center;}
+.students-card {margin: 0 20px;flex: 1 1 calc(33.33% - 40px); box-sizing: border-box; }
+.student-container-port-11 {transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0 100px; display: flex;gap: 40px;justify-content: center;}
+.students-card {align-content: center;transition: all 0.7s ease-out;padding: 40px 20px;background-color: white;color: black;border-radius: 12px; text-align: center;}
+.p-name {background-color: red;color: white;padding: 10px 20px;border-radius: 8px;}
+
+
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
 
@@ -1194,5 +1213,13 @@ nav ul {
   .developer p:first-child{font-size:25px;font-weight: 900;}
   .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
   .developer p{transform: translateZ(20px);}
+
+  /*student showcase portfolio*/
+  #header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+  #student-portfolio{display:flex;flex-direction: column;padding: 0px 60px;background-color: rgb(212, 208, 208);}
+  .student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10 {margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 40px;justify-content: center;transition: all 0.7s ease-out;}
+  .student-container-port-11{margin:40px 0px 100px 0px;display: flex;flex-direction: row;gap: 40px;justify-content: center;transition: all 0.7s ease-out;}
+  .students-card{padding: 40px 20px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
+  .p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;}  
   
 }
