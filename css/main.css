@@ -978,6 +978,54 @@ nav ul {
 .students-card {align-content: center;transition: all 0.7s ease-out;padding: 40px 20px;background-color: white;color: black;border-radius: 12px; text-align: center;}
 .p-name {background-color: red;color: white;padding: 10px 20px;border-radius: 8px;}
 
+/*Testimonials - Tablet*/
+
+#header-testimonials{
+  justify-content: center;text-align: center;font-size: 28px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;}
+    
+    #testimonials{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .testimonials-row1{
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+      justify-content: center;
+      margin:45px 0px 0px 0px;
+    }
+  
+    .testimonials-row2{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 55px 0px 80px 0px;
+    }
+  
+    .testimonials-box-1, .testimonials-box-2, .testimonials-box-3{
+      background-color: red;
+      padding: 20px 40px;
+      height: 290px;
+      width: 280px;
+      border-radius:12px;color:white;
+      text-align: center;
+      align-content: center;transition: all 0.7s ease-out;
+      
+    }
+  
+    .testimonials-name{
+      font-weight:800;
+    }
+  
+    .image-testimonials{
+      width: 100px;
+      height:100px;
+      object-fit: cover;
+      border-radius: 9px;
+      margin:0px 0px 20px 0px; 
+    }
+
 
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
@@ -1223,4 +1271,52 @@ nav ul {
   .students-card{padding: 40px 20px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
   .p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;}  
   
+
+    /*Testimonials - Desktop*/
+
+    #header-testimonials{
+      justify-content: center;text-align: center;font-size: 28px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;}
+        
+        #testimonials{
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .testimonials-row1{
+          display: flex;
+          flex-direction: row;
+          gap: 160px;
+          justify-content: center;
+          margin:45px 0px 0px 0px;
+        }
+      
+        .testimonials-row2{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin: 55px 0px 80px 0px;
+        }
+      
+        .testimonials-box-1, .testimonials-box-2, .testimonials-box-3{
+          background-color: red;
+          padding: 20px 40px;
+          height: 310px;
+          width: 340px;
+          border-radius:12px;color:white;
+          text-align: center;
+          align-content: center;transition: all 0.7s ease-out;
+          
+        }
+      
+        .testimonials-name{
+          font-weight:800;
+        }
+      
+        .image-testimonials{
+          width: 100px;
+          height:100px;
+          object-fit: cover;
+          border-radius: 9px;
+          margin:0px 0px 25px 0px; 
+        }
 }
