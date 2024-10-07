@@ -571,82 +571,37 @@ nav ul {
 .developer p {transform: translateZ(10px); }
 .developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
 
+/*student showcase portfolio mobile*/
+#header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0 30px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+#student-portfolio {display: flex;flex-direction: column;padding: 0px 0px;background-color: rgb(212, 208, 208);}
+.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10{transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 30px 0px 0px 0px;display: flex;gap: 10px;justify-content: center;}
+.students-card {margin: 0 20px;flex: 1 1 calc(50% - 20px); box-sizing: border-box; }
+.student-container-port-11 {transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0 80px; display: flex;gap: 10px;justify-content: center;}
+.students-card {text-align: center;align-content: center;transition: all 0.7s ease-out;padding: 40px 20px;background-color: white;color: black;border-radius: 12px;}
+.p-name {padding: 10px 20px;border-radius: 8px;background-color: red;color: white;}
+
+
 
 /* Tablet Grid */
 @media screen and (min-width: 768px) {
-
-  nav {
-    position: relative;
-    height: 100px;
-  }
-
-  nav ul {
-    position: absolute;
-    right: 25px;
-    margin-top: 0px;
-    display: block;
-  }
-
-  nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 5px 10px;
-  }
-
-  nav ul li a {
-    color: white;
-    font-size: 20px;
-    padding: 7px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    border-radius: 3px;
-    text-transform: uppercase;
-  }
-
-  nav ul li a:hover {
-    color: black;
-    background-color: white;
-    padding: 10px;
-    transition: 0.5s;
-  }
-
-  .mobile-navbar {
-    display: none;
-  }
-
-  .mobile-navbar.active {
-    display: none;
-  }
-
-  .hamburger {
-    display: none;
-  }
-
-  #nav-logo {
-    position: absolute;
-    width: 250px;
-  }
-
-  .icon img{
-    height: 55px;
-    width:55px;
-  }
-  
-  .icon {
-    margin: 10px; 
-    animation: float 10s linear infinite; 
-    opacity: 1; 
-  }
-
+  nav{position: relative;height: 100px;}
+  nav ul {position: absolute;right: 25px;margin-top: 0px;display: block;}
+  nav ul li {display: inline-block;line-height: 80px;margin: 5px 10px;}
+  nav ul li a {color: white;font-size: 20px;padding: 7px;font-family: "Montserrat", sans-serif;font-weight: 600;border-radius: 3px;text-transform: uppercase;}
+  nav ul li a:hover {color: black;background-color: white;padding: 10px;transition: 0.5s;}
+  .mobile-navbar {display: none;}
+  .mobile-navbar.active {display: none;}
+  .hamburger {display: none;}
+  #nav-logo {position: absolute;width: 250px;}
+  .icon img{height: 55px;width:55px;}
+  .icon {margin: 10px; animation: float 10s linear infinite; opacity: 1; }
   #icon-hero-1{display: flex;position: relative; left:50px;top:-90px;flex-direction: column;}
   #icon-hero-2{display: flex;position: relative; left:60px;top:-20px;flex-direction: column;}
   #icon-hero-3{display: flex;position: relative; left:50px;top:80px;flex-direction: column;}
   #icon-hero-4{display: flex;position: relative; right:50px;top:-90px;flex-direction: column;}
   #icon-hero-5{display: flex;position: relative; right:60px;top:-20px;flex-direction: column;}
   #icon-hero-6{display: flex;position: relative; right:60px;top:80px;flex-direction: column;}
-  
-
-  /*Finalist*/
+/*Finalist*/
 #finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 420px;}
 #header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 80px 0px 19px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
 .finalist-row{
@@ -668,14 +623,10 @@ nav ul {
   margin-bottom: 25px;
   margin-top:5px;
   align-items: center;
-
 }
 .container-last-finalist{
   margin:50px 0px 0px 0px;
 }
-
-
-
 .finalist-image{
   width: 80%; 
   max-width: 600px; 
@@ -696,8 +647,6 @@ nav ul {
   width: 40%; 
   max-width: 600px; 
 }
-
-
 .btnFinalist1{
   background-color: red;
   color:white;
@@ -709,7 +658,6 @@ nav ul {
   border-radius: 10px;
   border:none;
 }
-
 .btnFinalist2{
   background-color: red;
   color:white;
@@ -733,9 +681,6 @@ nav ul {
   border-radius: 10px;
   border:none;
 }
-  
-  
-  
 
   /* Header */
 
@@ -878,66 +823,67 @@ nav ul {
     padding: 25px 0;
   }
 
-  /* Interactive Media design */
-  #media-design {
-    display: flex;
-    flex-direction: column;
-    background-color: lightgrey;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    height: auto;
-  }
-  
-  #media-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding-bottom: 10%;
-  }
-  
-  #media-container img {
-    width: 100%;
-    height: auto;
-    padding-top: 10%;
-    padding-left: 15%;
-    padding-left: 15%;
-  }
-  
-  #media-container #media-header {
-    font-size: 3.5vw;
-    font-weight: 600;
-  }
-  
-  #media-container #media-body {
-    font-size: 2vw;
-    padding-left: 15%;
-    padding-right: 10%;
-  }
-  
-  #media-more {
-    text-align: center;
-    font-size: 2vw;
-    background-color: red;
-    color: white;
-    padding: 10px 5px;
-    width: 15%;
-    height: auto;
-    border: 0;
-    cursor: pointer;
-  }
-  /*honorable mention - tab*/
-#honorable-mention{background: rgb(247, 246, 246);}
-.team-image{width: 100%;height: 77%;border-top-left-radius: 10px;border-top-right-radius: 10px;}
-.honor-wrapper{display: flex;flex-direction: row;margin: 0px 0px 50px 0px; justify-content: center;}
-.honorable-box{margin:35px 20px;border-radius: 10px;padding: 0px 0px 50px 0px;background-color: red;color:white;box-shadow: 0 4px 15px rgba(0, 0, 0, 1);}
-.team-details{display: flex;flex-direction: row;gap: 0px;padding: 15px 9px 0px 15px;}
-.team-p{padding:0px;font-size:14px;}
-#team-tile{width:50px;}
-#honorable-header{justify-content: center;text-align: center;font-size: 30px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+/* Interactive Media design */
+#media-design {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
 
-/*Project Exhibit - tablet*/
+#media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding-bottom: 10%;
+}
+
+#media-container img {
+  width: 100%;
+  height: auto;
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-left: 15%;
+}
+
+#media-container #media-header {
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+#media-container #media-body {
+  font-size: 2vw;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+#media-more {
+  text-align: center;
+  font-size: 2vw;
+  background-color: red;
+  color: white;
+  padding: 10px 5px;
+  width: 15%;
+  height: auto;
+  border: 0;
+  cursor: pointer;
+}
+
+ /*honorable mention - tab*/
+ #honorable-mention{background: rgb(247, 246, 246);}
+ .team-image{width: 100%;height: 77%;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+ .honor-wrapper{display: flex;flex-direction: row;margin: 0px 0px 50px 0px; justify-content: center;}
+ .honorable-box{margin:35px 20px;border-radius: 10px;padding: 0px 0px 50px 0px;background-color: red;color:white;box-shadow: 0 4px 15px rgba(0, 0, 0, 1);}
+ .team-details{display: flex;flex-direction: row;gap: 0px;padding: 15px 9px 0px 15px;}
+ .team-p{padding:0px;font-size:14px;}
+ #team-tile{width:50px;}
+ #honorable-header{justify-content: center;text-align: center;font-size: 30px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+
+ /*Project Exhibit - tablet*/
 #project-header {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 40px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
 .image-switch{display: none;}
 #project-exhibit{display: flex;flex-direction: column;padding: 20px 0px 73px 0px;}
@@ -948,18 +894,76 @@ nav ul {
 .line-2-container .line-2-1{width: 250px;}
 .line-2-container .line-2-2{width: 450px;}
 .line-1-1, .line-1-2, .line-2-1, .line-2-2{border-radius: 12px;}
+
+/*Meet Developers- tablet*/
+#header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+#meet-developers{display:flex;flex-direction: column;}
+.container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+.container-meet-2{display: flex;flex-direction: row;gap: 100px; margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
+.developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
+.developer p:first-child{font-size:25px;font-weight: 900;}
+.developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
+.developer p{transform: translateZ(20px);}
+
+/*Student Show case port - tablet*/
+#header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0 30px;color: red;animation: fadeInFromWhite 2s ease forwards;}
+#student-portfolio {display: flex;flex-direction: column;padding: 0px 45px;background-color: rgb(212, 208, 208);}
+.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10{transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0px 0px 0px;display: flex;gap: 40px;justify-content: center;}
+.students-card {margin: 0 20px;flex: 1 1 calc(33.33% - 40px); box-sizing: border-box; }
+.student-container-port-11 {transition: all 0.7s ease-out;flex-direction: row; justify-content: space-between; margin: 40px 0 100px; display: flex;gap: 40px;justify-content: center;}
+.students-card {align-content: center;transition: all 0.7s ease-out;padding: 40px 20px;background-color: white;color: black;border-radius: 12px; text-align: center;}
+.p-name {background-color: red;color: white;padding: 10px 20px;border-radius: 8px;}
+
+/*Testimonials - Tablet*/
+
+#header-testimonials{
+ justify-content: center;text-align: center;font-size: 28px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;}
+   
+   #testimonials{
+     display: flex;
+     flex-direction: column;
+   }
+ 
+   .testimonials-row1{
+     display: flex;
+     flex-direction: row;
+     gap: 80px;
+     justify-content: center;
+     margin:45px 0px 0px 0px;
+   }
+ 
+   .testimonials-row2{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin: 55px 0px 80px 0px;
+   }
+ 
+   .testimonials-box-1, .testimonials-box-2, .testimonials-box-3{
+     background-color: red;
+     padding: 20px 40px;
+     height: 290px;
+     width: 280px;
+     border-radius:12px;color:white;
+     text-align: center;
+     align-content: center;transition: all 0.7s ease-out;
+     
+   }
+ 
+   .testimonials-name{
+     font-weight:800;
+   }
+ 
+   .image-testimonials{
+     width: 100px;
+     height:100px;
+     object-fit: cover;
+     border-radius: 9px;
+     margin:0px 0px 20px 0px; 
+   }
+
 }
-
- /*Meet Developers- tablet*/
- #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
- #meet-developers{display:flex;flex-direction: column;}
- .container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
- .container-meet-2{display: flex;flex-direction: row;gap: 100px; margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
- .developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
- .developer p:first-child{font-size:25px;font-weight: 900;}
- .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
- .developer p{transform: translateZ(20px);}
-
+    
 /* Desktop Grid */
 @media screen and (min-width: 1200px) {
 
