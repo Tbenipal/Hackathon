@@ -554,13 +554,6 @@ nav ul {
 .last-box-honor{margin-bottom:80px;}
 .box-adjustment-spacing{margin:68px 20px;}
 
-/*Project Exhibit - mobile*/
-.line-1-container, .line-2-container{display: none;}
-.image-switch{display: flex;flex-direction: row;     }
-#project-exhibit{display: flex;flex-direction: column;padding:20px 0px 80px 0px;}
-#students-exhibit-switch{height: 320px;width: 360px;margin:0px 25px 0px 25px;border-radius: 12px;}
-#project-header {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 40px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
-
  /*Meet Developers- mobile*/
  #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 45px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
  #meet-developers {display: flex;flex-direction: column;}
@@ -591,14 +584,7 @@ nav ul {
   .mobile-navbar.active {display: none;}
   .hamburger {display: none;}
   #nav-logo {position: absolute;width: 250px;}
-  .icon img{height: 55px;width:55px;}
-  .icon {margin: 10px; animation: float 10s linear infinite; opacity: 1; }
-  #icon-hero-1{display: flex;position: relative; left:50px;top:-90px;flex-direction: column;}
-  #icon-hero-2{display: flex;position: relative; left:60px;top:-20px;flex-direction: column;}
-  #icon-hero-3{display: flex;position: relative; left:50px;top:80px;flex-direction: column;}
-  #icon-hero-4{display: flex;position: relative; right:50px;top:-90px;flex-direction: column;}
-  #icon-hero-5{display: flex;position: relative; right:60px;top:-20px;flex-direction: column;}
-  #icon-hero-6{display: flex;position: relative; right:60px;top:80px;flex-direction: column;}
+
 /*Finalist*/
 #finalist{align-items: center;margin: 0 auto;padding:0px 0px;width: 100%;height: 420px;}
 #header-finalist {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 80px 0px 19px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
@@ -881,17 +867,6 @@ nav ul {
  #team-tile{width:50px;}
  #honorable-header{justify-content: center;text-align: center;font-size: 30px;font-weight: 900;margin: 60px 0px 0px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
 
- /*Project Exhibit - tablet*/
-#project-header {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 40px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
-.image-switch{display: none;}
-#project-exhibit{display: flex;flex-direction: column;padding: 20px 0px 73px 0px;}
-.line-1-container{gap: 20px;justify-content: center;padding:0px 200px;margin: 20px 100px;display: flex;flex-direction: row;height: 50%;}
-.line-1-container .line-1-1{width: 450px;}
-.line-1-container .line-1-2{width: 250px;}
-.line-2-container{gap: 20px;justify-content: center;padding:0px 200px;margin: 20px 100px;display: flex;flex-direction: row;height: 50%;}
-.line-2-container .line-2-1{width: 250px;}
-.line-2-container .line-2-2{width: 450px;}
-.line-1-1, .line-1-2, .line-2-1, .line-2-2{border-radius: 12px;}
 
 /*Meet Developers- tablet*/
 #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
@@ -910,55 +885,6 @@ nav ul {
 .student-container-port-11{margin:40px 40px 100px 5px;display: flex;flex-direction: row;gap: 60px;justify-content: center;transition: all 0.7s ease-out;}
 .students-card{padding: 60px 30px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
 .p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;} 
-
-
-/*Testimonials - Tablet*/
-
-#header-testimonials{
- justify-content: center;text-align: center;font-size: 28px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;}
-   
-   #testimonials{
-     display: flex;
-     flex-direction: column;
-   }
- 
-   .testimonials-row1{
-     display: flex;
-     flex-direction: row;
-     gap: 80px;
-     justify-content: center;
-     margin:45px 0px 0px 0px;
-   }
- 
-   .testimonials-row2{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     margin: 55px 0px 80px 0px;
-   }
- 
-   .testimonials-box-1, .testimonials-box-2, .testimonials-box-3{
-     background-color: red;
-     padding: 20px 40px;
-     height: 290px;
-     width: 280px;
-     border-radius:12px;color:white;
-     text-align: center;
-     align-content: center;transition: all 0.7s ease-out;
-     
-   }
- 
-   .testimonials-name{
-     font-weight:800;
-   }
- 
-   .image-testimonials{
-     width: 100px;
-     height:100px;
-     object-fit: cover;
-     border-radius: 9px;
-     margin:0px 0px 20px 0px; 
-   }
 
 }
     
@@ -993,15 +919,6 @@ nav ul {
     height: 645px;
   }
 
-  #icon-hero-1{display: flex;position: relative; left:90px;top:-90px;flex-direction: column;}
-  #icon-hero-2{display: flex;position: relative; left:120px;top:-20px;flex-direction: column;}
-  #icon-hero-3{display: flex;position: relative; left:120px;top:40px;flex-direction: column;}
-  #icon-hero-4{display: flex;position: relative; right:90px;top:-90px;flex-direction: column;}
-  #icon-hero-5{display: flex;position: relative; right:120px;top:-20px;flex-direction: column;}
-  #icon-hero-6{display: flex;position: relative; right:120px;top:40px;flex-direction: column;}
-
-
-  
   .icon img{
     height: 85px;
     width:85px;
@@ -1178,18 +1095,6 @@ nav ul {
   .honorable-box{margin:35px 20px;border-radius: 10px;padding: 0px 0px 80px 0px;background-color: red;color:white;box-shadow: 0 4px 15px rgba(0, 0, 0, 1);}
   .team-image{width: 100%;height: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;}
 
-  /*Project Exhibit*/
-  #project-header {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 60px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
-  .image-switch{display: none;}
-  #project-exhibit{display: flex;flex-direction: column;padding: 30px 0px 95px 0px;}
-  .line-1-container{gap: 20px;justify-content: center;padding:0px 200px;margin: 20px 100px;display: flex;flex-direction: row;height: 40%;}
-  .line-1-container .line-1-1{width: 650px;height: 380px;}
-  .line-1-container .line-1-2{width: 350px;height: 380px;}
-  .line-2-container{gap: 20px;justify-content: center;padding:0px 200px;margin: 20px 100px;display: flex;flex-direction: row;height: 40%;}
-  .line-2-container .line-2-1{width: 350px;height: 380px;}
-  .line-2-container .line-2-2{width: 650px;height: 380px;}
-  .line-1-1, .line-1-2, .line-2-1, .line-2-2{border-radius: 12px;}  
-
   /*Meet Developers- Desktop*/
   #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
   #meet-developers{display:flex;flex-direction: column;}
@@ -1207,53 +1112,4 @@ nav ul {
   .student-container-port-11{margin:40px 15px 100px 0px;display: flex;flex-direction: row;gap: 20px;justify-content: center;transition: all 0.7s ease-out;}
   .students-card{padding: 40px 20px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
   .p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;}  
-  
-
-    /*Testimonials - Desktop*/
-
-    #header-testimonials{
-      justify-content: center;text-align: center;font-size: 28px;font-weight: 900;color: red;animation: fadeInFromWhite 2s ease forwards;}
-        
-        #testimonials{
-          display: flex;
-          flex-direction: column;
-        }
-      
-        .testimonials-row1{
-          display: flex;
-          flex-direction: row;
-          gap: 160px;
-          justify-content: center;
-          margin:45px 0px 0px 0px;
-        }
-      
-        .testimonials-row2{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          margin: 55px 0px 80px 0px;
-        }
-      
-        .testimonials-box-1, .testimonials-box-2, .testimonials-box-3{
-          background-color: red;
-          padding: 20px 40px;
-          height: 310px;
-          width: 340px;
-          border-radius:12px;color:white;
-          text-align: center;
-          align-content: center;transition: all 0.7s ease-out;
-          
-        }
-      
-        .testimonials-name{
-          font-weight:800;
-        }
-      
-        .image-testimonials{
-          width: 100px;
-          height:100px;
-          object-fit: cover;
-          border-radius: 9px;
-          margin:0px 0px 25px 0px; 
-        }
 }
