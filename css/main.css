@@ -233,7 +233,7 @@ nav ul {
 
 #event-p1 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 900;
   color: red;
   padding: 30px;
 }
@@ -440,22 +440,25 @@ nav ul {
 #header-finalist {
   justify-content: center;
   text-align: center;
-  font-size: 28px;
+  font-size: 5vw;
   font-weight: 900;
   margin: 45px 0px 0px 0px;
   color: red;
   animation: fadeInFromWhite 2s ease forwards;
 }
 
-.finalist-row{
+.finalist-info {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  gap:20px;
-  padding:15px 10px;
-  margin-bottom: 0px;
-  margin-top:5px;
   align-items: center;
+  padding-bottom: 15px;
+}
+
+.finalist-btn-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 10px;
 }
 .container-last-finalist{
   margin-top:0px;
@@ -484,59 +487,22 @@ nav ul {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
 }
 
-#finalist-number1{
-  font-size: 24px;
-  font-weight: 400;
-  color: black;
-}
-
-#finalist-number2{
-  font-size: 24px;
-  font-weight: 400;
-  color: black;
-}
-
-#finalist-number3{
-  font-size: 24px;
-  font-weight: 400;
+.finalist-number{
+  font-size: 4vw;
+  font-weight: 600;
   color: black;
 }
 
 
-.btnFinalist1{
+.btnFinalist{
   background-color: red;
   color:white;
   padding: 10px 20px;
-  width: 170px;
-  height: 50px;
-  font-size: 18px;
+  font-size: 4vw;
   font-weight: 400;
   border-radius: 10px;
   border:none;
-}
-
-.btnFinalist2{
-  background-color: red;
-  color:white;
-  padding: 10px 20px;
-  width: 170px;
-  height: 50px;
-  font-size: 18px;
-  font-weight: 400;
-  border-radius: 10px;
-  border:none;
-}
-
-.btnFinalist3{
-  background-color: red;
-  color:white;
-  padding: 10px 20px;
-  width: 170px;
-  height: 50px;
-  font-size: 18px;
-  font-weight: 400;
-  border-radius: 10px;
-  border:none;
+  cursor: pointer;
 }
 
 /*honorable mention - mobile*/
