@@ -2,16 +2,18 @@
 const hamburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobile-navbar");
 const closeMenu = document.querySelector(".close-burger");
-const iconsHero = document.querySelectorAll('.icon');
-const images = ['images/imagesw1.jpg','images/imagesw2.jpg','images/imagesw3.jpg', 'images/imagesw4.jpg'];
-const projectExhibitImage = document.querySelector('#students-exhibit-switch');
-let imageCounter = 0;
 
-hamburger.addEventListener("click", () => {
+
+//Functions
+function openmenu() {
     mobileMenu.classList.toggle("active");
-});
+}
 
-closeMenu.addEventListener("click", () => {
+function close() {
     closeMenu.classList.toggle("active");
-    mobileMenu.classList.remove("active");
-});
+    mobileMenu.classList.remove("active"); 
+}
+
+//Event Listeners
+hamburger.addEventListener("click", openmenu);
+closeMenu.addEventListener("click", close);
