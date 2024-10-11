@@ -102,7 +102,6 @@ nav ul {
 }
 
 
-
 /* Header */
 #header-hero {
   display: flex;
@@ -403,6 +402,72 @@ nav ul {
   cursor: pointer;
 }
 
+/* Project Exhibit */
+
+#project-exhibit {
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+  padding-bottom: 50px;
+}
+
+#header-exhibit {
+  font-size: 4.5vw;
+  font-weight: 900;
+  color: red;
+  padding: 25px 0px;
+  transform: translateX(5%);
+
+}
+
+#slider-container {
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+#image-slider {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+#next-img img {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 5%;
+  cursor: pointer;
+  margin-right: 15px;
+  opacity: 0.5;
+}
+
+#next-img img:hover {
+  opacity: 1;
+}
+
+#prev-img img {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 5%;
+  cursor: pointer;
+  margin-left: 15px;
+  opacity: 0.5;
+}
+
+#prev-img img:hover {
+  opacity: 1;
+}
+
 /*HONORABLE MENTIONS*/
 
 .honorable-container{
@@ -415,7 +480,7 @@ nav ul {
   margin: 0 auto;
   width: 100%;
   height: auto;
-  background-color: lightgray;
+  background-color: white;
 }
 
 #honorable-header {
@@ -441,41 +506,34 @@ nav ul {
 
 /* Interactive Media design */
 #media-design {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: lightgray;
+  padding-bottom: 50px;
 }
 
-#media-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  padding-bottom: 10%;
+#media-header {
+  font-size: 4.5vw;
+  color: red;
+  font-weight: 900;
+  transform: translateX(-10%);
+  padding: 25px 0px;
 }
 
-#media-container img {
+#media-img img {
   width: 100%;
   height: auto;
-  padding-top: 10%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 0px 40px;
 }
 
-#media-container #media-header {
-  font-size: 5vw;
-  font-weight: 600;
-}
-
-#media-container #media-body {
+#media-body {
+  padding: 25px 40px;
   font-size: 3vw;
   font-weight: 400;
-  padding: 5% 10%;
+}
+
+#media-more-container {
+  transform: translateX(-20%);
 }
 
 #media-more {
@@ -483,17 +541,16 @@ nav ul {
   font-size: 2.5vw;
   background-color: red;
   color: white;
-  padding: 10px 5px;
-  width: 20%;
+  padding: 10px 10px;
   height: auto;
-  border: 0;
+  border: 1;
   cursor: pointer;
 }
 
 /* Meet Developers */
 
 #meet-developers {
-  background-color: lightgrey;
+  background-color: white;
   width: 100%;
   height: auto;
   padding-top: 50px;
@@ -736,6 +793,24 @@ nav ul {
     cursor: pointer;
   }
 
+  /* Project Exhibit */
+
+  #project-exhibit {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    padding-bottom: 75px;
+  }
+
+  #header-exhibit {
+    font-size: 4vw;
+    font-weight: 900;
+    color: red;
+    padding: 50px 0px;
+    transform: translateX(5%);
+  }
+
+
 
   /* Header */
 
@@ -799,7 +874,9 @@ nav ul {
 
   /*Event Details*/
   #event-details {
-    min-height: 100vh;
+    width: 100%;
+    height: auto;
+    padding-bottom: 75px;
   }
 
   #event-p1 {
@@ -807,6 +884,7 @@ nav ul {
     font-weight: 800;
     color: red;
     margin: 0 auto;
+    padding: 25px 0px;
   }
 
 
@@ -826,53 +904,81 @@ nav ul {
     margin-left: 30px;
   }
 
+  /*HONORABLE MENTIONS*/
+
+.honorable-container{
+  margin-bottom:10px;
+  padding: 0 8%;
+}
+
+#honorable {
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+#honorable-header {
+  justify-content: center;
+  text-align: center;
+  font-size: 4.5vw;
+  font-weight: 900;
+  margin: 45px 0px 0px 0px;
+  color: red;
+  animation: fadeInFromWhite 2s ease forwards;
+  padding-bottom: 10px;
+}
+
+.honorable-image{
+  width: 100%; 
+  max-width: 600px; 
+  height: auto; 
+  border-radius: 15px; 
+  display: block; 
+  margin: 30px auto; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+}
+
   /* Interactive Media design */
+
   #media-design {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-    margin: 0 auto;
     width: 100%;
     height: auto;
-  }
-
-  #media-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding-bottom: 10%;
+    padding-bottom: 75px;
   }
 
   #media-container img {
     width: 100%;
     height: auto;
-    padding-top: 10%;
-    padding-left: 15%;
-    padding-left: 15%;
   }
 
-  #media-container #media-header {
-    font-size: 3.5vw;
-    font-weight: 600;
+  #media-header {
+    font-size: 4vw;
+    font-weight: 900;
+    transform: translateX(-5%);
+    padding: 50px 0px;
   }
 
-  #media-container #media-body {
-    font-size: 2vw;
-    padding-left: 15%;
-    padding-right: 10%;
+  #media-body {
+    font-size: 3vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
+  #media-more-container {
+    transform: translateX(-25%);
+  }
+  
   #media-more {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
     background-color: red;
     color: white;
-    padding: 10px 5px;
-    width: 15%;
+    padding: 10px 10px;
     height: auto;
-    border: 0;
+    border: 1;
     cursor: pointer;
   }
 
@@ -887,6 +993,7 @@ nav ul {
     background-color: red;
     border-radius: 10px;
     box-shadow: 0 4px 20px black;
+    padding: 10px 0px;
   }
 
   .developer p {
@@ -969,8 +1076,8 @@ nav ul {
   /*Event Details*/
 
   #event-details {
-    background-color: rgb(188, 187, 187);
-    min-height: 100vh;
+    width: 100%;
+    height: auto;
     padding-bottom: 100px;
   }
 
@@ -979,6 +1086,7 @@ nav ul {
     font-size: 50px;
     font-weight: 800;
     color: red;
+    padding: 75px 0px;
   }
 
   #event-p2 {
@@ -1046,7 +1154,7 @@ nav ul {
   }
 
   .finalist-number{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 600;
     color: black;
   }
@@ -1056,11 +1164,46 @@ nav ul {
     background-color: red;
     color:white;
     padding: 10px 20px;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 400;
     border-radius: 10px;
     border:none;
     cursor: pointer;
+  }
+
+  /* Project Exhibit */
+
+  #project-exhibit {
+    width: 100%;
+    height: auto;
+    background-color: lightgray;
+    padding-bottom: 75px;
+  }
+
+  #header-exhibit {
+    font-size: 3vw;
+    font-weight: 900;
+    color: red;
+    padding: 50px 0px;
+    transform: translateX(5%);
+  }
+
+  #slider-container {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+  
+  #image-slider {
+    position: relative;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  
+  .slider-image {
+    max-width: 100%;
+    height: auto;
   }
 
   /* Honorable Mention*/
@@ -1083,40 +1226,25 @@ nav ul {
 
   /* Interactive Media design */
   #media-design {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    align-items: center;
-    margin: 0 auto;
     width: 100%;
     height: auto;
+    padding: 0 5%;
   }
   
-  #media-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding-bottom: 10%;
+  #media-header {
+    font-size: 3vw;
+    font-weight: 800;
+    transform: translateX(5%);
   }
   
-  #media-container img {
-    width: 100%;
-    height: auto;
-    padding-top: 5%;
-    padding-bottom: 3%;
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-  
-  #media-container #media-header {
-    font-size: 2.5vw;
-    font-weight: 600;
-  }
-  
-  #media-container #media-body {
+  #media-body {
     font-size: 1.5vw;
-    padding: 3% 25%;
+    padding-left: 14%;
+  }
+  
+   #media-more-container {
+    padding-bottom: 75px;
+    transform: translateX(-10%);
   }
   
   #media-more {
@@ -1124,10 +1252,9 @@ nav ul {
     font-size: 1.5vw;
     background-color: red;
     color: white;
-    padding: 10px 5px;
-    width: 12%;
+    padding: 10px 10px;
     height: auto;
-    border: 0;
+    border: 1;
     cursor: pointer;
   }
 
