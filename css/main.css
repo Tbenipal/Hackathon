@@ -490,6 +490,43 @@ nav ul {
   cursor: pointer;
 }
 
+/* Meet Developers */
+
+#meet-developers {
+  background-color: lightgrey;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+#meet-header {
+  display: flex;
+  justify-content: center;
+  font-size: 4.5vw;
+  color: red;
+  font-weight: 900;
+}
+
+.developer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px black;
+}
+
+.developer p {
+  color: white;
+  padding: 15px 0px;
+  font-size: 3.5vw;
+}
+
+/* Testimonials */
+
 
 /* Footer */
 #footer-hero {
@@ -532,24 +569,7 @@ nav ul {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
- /*Meet Developers- mobile*/
- #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 45px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
- #meet-developers {display: flex;flex-direction: column;}
-.container-meet-1 {width: 100%; margin: 10px 0; display: flex;flex-direction: row;gap: 20px; justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;padding: 0px 50px;}
-.container-meet-2 {width: 100%; margin: 10px 0px 65px 0px;; display: flex;flex-direction: row;gap: 20px; justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;padding: 0px 18px;}
-.developer {padding: 15px; background-color: red;height: auto; width: 85%;max-width: 250px; border-radius: 12px;color: white;text-align: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
-.developer p:first-child {font-size: 18px; font-weight: 900;}
-.developer p {transform: translateZ(10px); }
-.developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
-
-/*student showcase portfolio mobile*/
-#header-studentportfolio {justify-content: center; text-align: center;font-size: 28px;font-weight: 900;margin: 50px 0px 10px 0px;color: red;animation: fadeInFromWhite 2s ease forwards; width: 380px}
-#student-portfolio{display:flex;flex-direction: column;padding: 0px 20px;background-color: rgb(212, 208, 208); flex-wrap: wrap;}
-.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10 {margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 40px;justify-content: center;transition: all 0.7s ease-out;}
-.student-container-port-11{margin:40px 0px 70px 0px;display: flex;flex-direction: row;gap: 40px;justify-content: center;transition: all 0.7s ease-out;}
-.students-card{padding: 40px 20px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
-.p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;}  
+ 
 
 
 /* Tablet Grid */
@@ -806,75 +826,74 @@ nav ul {
     margin-left: 30px;
   }
 
-/* Interactive Media design */
-#media-design {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-}
+  /* Interactive Media design */
+  #media-design {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
 
-#media-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  padding-bottom: 10%;
-}
+  #media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 10%;
+  }
 
-#media-container img {
-  width: 100%;
-  height: auto;
-  padding-top: 10%;
-  padding-left: 15%;
-  padding-left: 15%;
-}
+  #media-container img {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-left: 15%;
+  }
 
-#media-container #media-header {
-  font-size: 3.5vw;
-  font-weight: 600;
-}
+  #media-container #media-header {
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
 
-#media-container #media-body {
-  font-size: 2vw;
-  padding-left: 15%;
-  padding-right: 10%;
-}
+  #media-container #media-body {
+    font-size: 2vw;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
 
-#media-more {
-  text-align: center;
-  font-size: 2vw;
-  background-color: red;
-  color: white;
-  padding: 10px 5px;
-  width: 15%;
-  height: auto;
-  border: 0;
-  cursor: pointer;
-}
+  #media-more {
+    text-align: center;
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding: 10px 5px;
+    width: 15%;
+    height: auto;
+    border: 0;
+    cursor: pointer;
+  }
 
+  /* Meet Developers */
 
-/*Meet Developers- tablet*/
-#header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
-#meet-developers{display:flex;flex-direction: column;}
-.container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
-.container-meet-2{display: flex;flex-direction: row;gap: 100px; margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
-.developer:hover {transition: all 0.2s linear;animation: developercard 4.5s forwards;}
-.developer p:first-child{font-size:25px;font-weight: 900;}
-.developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
-.developer p{transform: translateZ(20px);}
+  .developer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px black;
+  }
 
-/*Student Show case port - tablet*/
-#header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards; width: 700px;}
-#student-portfolio{display:flex;flex-direction: column;padding: 0px 44px;background-color: rgb(212, 208, 208); flex-wrap: wrap;  }
-.student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10 {margin:40px 40px 0px 5px;display: flex;flex-direction: row;gap: 60px;justify-content: center;transition: all 0.7s ease-out;}
-.student-container-port-11{margin:40px 40px 100px 5px;display: flex;flex-direction: row;gap: 60px;justify-content: center;transition: all 0.7s ease-out;}
-.students-card{padding: 60px 30px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
-.p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;} 
-
+  .developer p {
+    color: white;
+    padding: 15px 0px;
+    font-size: 3vw;
+  }
 }
     
 
@@ -1112,21 +1131,32 @@ nav ul {
     cursor: pointer;
   }
 
-  /*Meet Developers- Desktop*/
-  #header-meetdev {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards;}
-  #meet-developers{display:flex;flex-direction: column;}
-  .container-meet-1{margin:40px 0px 0px 0px;display: flex;flex-direction: row;gap: 100px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
-  .container-meet-2{display: flex;flex-direction: row;gap: 100px;margin:70px 0px 110px 0px;justify-content: center;transition: all 0.7s ease-out;perspective: 1000px;}
-  .developer:hover{transition: all 0.2s linear;animation: developercard 4.5s forwards;}
-  .developer p:first-child{font-size:25px;font-weight: 900;}
-  .developer{padding: 40px 40px;background-color: red;height: 310px;width: 280px;border-radius:12px;color:white;text-align: center;align-content: center;transition: all 0.7s ease-out;transform: rotateX(0deg) rotateY(0deg);perspective: 1000px;transform-style: preserve-3d;}
-  .developer p{transform: translateZ(20px);}
+   /* Meet Developers */
 
-  /*student showcase portfolio - Desktop*/
-  #header-studentportfolio {justify-content: center;text-align: center;font-size: 28px;font-weight: 900;margin: 78px 0px 30px 0px;color: red;animation: fadeInFromWhite 2s ease forwards; width: 1200px;}
-  #student-portfolio{display:flex;flex-direction: column;padding: 0px 10px;background-color: rgb(212, 208, 208);}
-  .student-container-port-1, .student-container-port-2, .student-container-port-3, .student-container-port-4, .student-container-port-5, .student-container-port-6, .student-container-port-7, .student-container-port-8, .student-container-port-9, .student-container-port-10 {margin:40px 15px 0px 0px;display: flex;flex-direction: row;gap: 20px;justify-content: center;transition: all 0.7s ease-out;}
-  .student-container-port-11{margin:40px 15px 100px 0px;display: flex;flex-direction: row;gap: 20px;justify-content: center;transition: all 0.7s ease-out;}
-  .students-card{padding: 40px 20px;background-color: white;color: black;border-radius:12px;text-align: center;align-content: center;transition: all 0.7s ease-out;}
-  .p-name{background-color: red;color:white;padding: 10px 20px;border-radius: 8px;}  
+
+   #meet-header {
+    font-size: 2.5vw;
+    margin: 0 auto;
+   }
+
+   #meet-container-2 {
+    transform: translateX(17%);
+    width: 75%;
+   }
+
+   .developer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px black;
+  }
+
+  .developer p {
+    color: white;
+    padding: 15px 0px;
+    font-size: 1.5vw;
+  }
 }
