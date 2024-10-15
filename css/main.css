@@ -1,3 +1,8 @@
+@keyframes fade-in {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
 * {
   text-decoration: none;
   list-style: none;
@@ -121,7 +126,7 @@ nav ul {
   font-size: 28px;
   font-weight: 700;
   color: red;
-  animation: fadeInFromWhite 2s ease forwards;
+  animation: fade-in 1s ease-in;
 }
 
 #text-2 {
@@ -134,7 +139,7 @@ nav ul {
   font-size: 32px;
   font-weight: 600;
   color: red;
-  animation: fadeInFromWhite 2s ease forwards;
+  animation: fade-in 2s ease-in;
 }
 
 #text-4 {
@@ -151,8 +156,8 @@ nav ul {
   font-size: 25px;
   font-weight: 600;
   color: red;
-  animation: fadeInFromWhite 2s ease forwards;
   text-align: center;
+  animation: fade-in 3s ease-in;
   
 }
 
@@ -174,7 +179,7 @@ nav ul {
   margin-bottom: 20px;
   justify-content: center;
   text-align: center;
-  animation: fadeInFromWhite 2s ease forwards;
+
 }
 
 .content-wrapper {
@@ -232,6 +237,11 @@ nav ul {
   border-radius: 5px;
   position: relative;
   margin: 0 auto;
+}
+
+#find-us:hover {
+  font-size: 15px;
+  box-shadow: red 1px 1px 10px 1px;
 }
 
 #event-container {
@@ -337,7 +347,7 @@ nav ul {
   font-weight: 900;
   margin: 45px 0px 0px 0px;
   color: red;
-  animation: fadeInFromWhite 2s ease forwards;
+
 }
 
 .finalist-info {
@@ -353,6 +363,7 @@ nav ul {
   align-self: center;
   margin-bottom: 10px;
 }
+
 .container-last-finalist{
   margin-top:0px;
   margin-bottom:70px;
@@ -397,6 +408,11 @@ nav ul {
   border-radius: 10px;
   border:none;
   cursor: pointer;
+}
+
+.btnFinalist:hover {
+  font-size: 4vw;
+  box-shadow: black 1px 1px 10px 1px;
 }
 
 /* Project Exhibit */
@@ -469,7 +485,7 @@ nav ul {
 
 .honorable-container{
   margin-bottom:10px;
-  padding: 0 8%;
+  padding: 0 5%;
 }
 
 #honorable {
@@ -478,16 +494,17 @@ nav ul {
   width: 100%;
   height: auto;
   background-color: white;
+  padding-bottom: 25px;
 }
 
 #honorable-header {
   justify-content: center;
   text-align: center;
-  font-size: 4.5vw;
+  font-size: 5vw;
   font-weight: 900;
   margin: 45px 0px 0px 0px;
   color: red;
-  animation: fadeInFromWhite 2s ease forwards;
+
   padding-bottom: 10px;
 }
 
@@ -540,7 +557,6 @@ nav ul {
   color: white;
   padding: 10px 10px;
   height: auto;
-  border: 1;
   cursor: pointer;
 }
 
@@ -577,6 +593,7 @@ nav ul {
   color: white;
   padding: 15px 0px;
   font-size: 3.5vw;
+  cursor: pointer;
 }
 
 /* Testimonials */
@@ -660,6 +677,7 @@ nav ul {
   font-size: 3.5vw;
   color: black;
   font-weight: 600;
+  padding: 0px 10px;
 }
 
 .holder-portfolio {
@@ -816,7 +834,7 @@ nav ul {
     margin: 45px 0px 0px 0px;
     padding-bottom: 25px;
     color: red;
-    animation: fadeInFromWhite 2s ease forwards;
+  
   }
 
   .finalist-info {
@@ -878,6 +896,10 @@ nav ul {
     cursor: pointer;
   }
 
+  .btnFinalist:hover {
+    font-size: 3vw;
+  }
+
   /* Project Exhibit */
 
   #project-exhibit {
@@ -899,31 +921,34 @@ nav ul {
 
   /* Header */
 
+  #header-hero {
+    padding: 25px 0px;
+    gap: 50px;
+  }
+
   #text-1 {
-    padding-top: 50px;
     font-size: 32px;
     font-weight: 900;
     color: red;
-    animation: fadeInFromWhite 2s ease forwards;
+    animation: fade-in 1s ease-in;
+  
   }
   
   #text-2 {
-    padding-bottom: 50px;
     font-size: 30px;
     font-weight: 400;
     color: black;
   }
   
   #text-3 {
-    padding-bottom: 50px;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
     color: red;
     animation: fadeInFromWhite 4s ease forwards;
+    animation: fade-in 2s ease-in;
   }
   
   #text-4 {
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 26px;
@@ -933,11 +958,10 @@ nav ul {
   }
   
   #text-5 {
-    padding-bottom: 50px;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
     color: red;
-    animation: fadeInFromWhite 4.5s ease forwards;
+    animation: fade-in 3s ease-in;
   }
 
   /* Foundation - 66 */
@@ -991,40 +1015,40 @@ nav ul {
 
   /*HONORABLE MENTIONS*/
 
-.honorable-container{
-  margin-bottom:10px;
-  padding: 0 8%;
-}
+  .honorable-container{
+    margin-bottom:10px;
+    padding: 0 8%;
+  }
 
-#honorable {
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
-  background-color: white;
-  padding-bottom: 25px;
-}
+  #honorable {
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-bottom: 25px;
+  }
 
-#honorable-header {
-  justify-content: center;
-  text-align: center;
-  font-size: 4.5vw;
-  font-weight: 900;
-  margin: 45px 0px 0px 0px;
-  color: red;
-  animation: fadeInFromWhite 2s ease forwards;
-  padding-bottom: 10px;
-}
+  #honorable-header {
+    justify-content: center;
+    text-align: center;
+    font-size: 4.5vw;
+    font-weight: 900;
+    margin: 45px 0px 0px 0px;
+    color: red;
 
-.honorable-image{
-  width: 100%; 
-  max-width: 600px; 
-  height: auto; 
-  border-radius: 15px; 
-  display: block; 
-  margin: 30px auto; 
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
-}
+    padding-bottom: 10px;
+  }
+
+  .honorable-image{
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    border-radius: 15px; 
+    display: block; 
+    margin: 30px auto; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+  }
 
   /* Interactive Media design */
 
@@ -1133,10 +1157,10 @@ nav ul {
   }
   
   #porfolio-header p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: red;
     font-weight: 900;
-    margin-left: 80%;
+    margin-left: 100%;
   }
   
   .place-holder {
@@ -1155,7 +1179,7 @@ nav ul {
   }
   
   .holder-name {
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: black;
     font-weight: 600;
   }
@@ -1191,32 +1215,32 @@ nav ul {
 
   /* Header */
 
+  #header-hero {
+    padding: 50px 0px;
+    gap: 75px;
+  }
+
   #text-1 {
-    padding-top: 75px;
-    padding-bottom: 50px;
     font-size: 36px;
     font-weight: 900;
     color: red;
-    animation: fadeInFromWhite 2s ease forwards;
+    animation: fade-in 1s ease-in;
   }
   
   #text-2 {
-    padding-bottom: 50px;
     font-size: 34px;
     font-weight: 400;
     color: black;
   }
   
   #text-3 {
-    padding-bottom: 50px;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     color: red;
-    animation: fadeInFromWhite 4s ease forwards;
+    animation: fade-in 2s ease-in;
   }
   
   #text-4 {
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 30px;
@@ -1226,16 +1250,10 @@ nav ul {
   }
   
   #text-5 {
-    padding-bottom: 100px;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 600;
     color: red;
-    animation: fadeInFromWhite 4.5s ease forwards;
-  }
-
-  .icon img{
-    height: 85px;
-    width:85px;
+    animation: fade-in 3s ease-in;
   }
 
   /*Event Details*/
@@ -1289,7 +1307,7 @@ nav ul {
     font-weight: 800;
     margin: 45px 0px 0px 0px;
     color: red;
-    animation: fadeInFromWhite 2s ease forwards;
+  
     padding-bottom: 3%;
   }
 
@@ -1334,6 +1352,10 @@ nav ul {
     border-radius: 10px;
     border:none;
     cursor: pointer;
+  }
+
+  .btnFinalist:hover {
+    font-size: 2vw;
   }
 
   /* Project Exhibit */
@@ -1385,7 +1407,7 @@ nav ul {
     font-weight: 800;
     margin: 45px 0px 0px 0px;
     color: red;
-    animation: fadeInFromWhite 2s ease forwards;
+  
     padding-bottom: 10px;
   }
 
@@ -1521,13 +1543,13 @@ nav ul {
   }
   
   .holder-name {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: black;
     font-weight: 600;
   }
   
   .holder-portfolio {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: red;
     font-weight: 600;
     cursor: pointer;
