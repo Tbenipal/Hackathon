@@ -113,26 +113,24 @@ nav ul {
   background-image: url('../images/bgg.jpg');
   background-size: cover;
   height: auto;
+  gap: 25px;
 }
 
 #text-1 {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 50px;
   font-size: 28px;
-  font-weight: 900;
+  font-weight: 700;
   color: red;
   animation: fadeInFromWhite 2s ease forwards;
 }
 
 #text-2 {
-  padding-bottom: 25px;
   font-size: 26px;
   font-weight: 400;
   color: black;
 }
 
 #text-3 {
-  padding-bottom: 25px;
   font-size: 32px;
   font-weight: 600;
   color: red;
@@ -140,7 +138,6 @@ nav ul {
 }
 
 #text-4 {
-  padding-bottom: 25px;
   padding-right: 25px;
   padding-left: 25px;
   font-size: 22px;
@@ -150,7 +147,7 @@ nav ul {
 }
 
 #text-5 {
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   font-size: 25px;
   font-weight: 600;
   color: red;
@@ -644,33 +641,32 @@ nav ul {
   margin-left: 30%;
 }
 
-.portfolio-container {
+.place-holder {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: auto;
-  height: auto;
-  background-color: white;
-  box-shadow: grey 1px 1px 15px 1px;
-  border-radius: 10px;
-  padding: 25px 25px;
-}
-
-.placeholder {
   text-align: center;
   width: auto;
   height: auto;
   background-color: white;
   box-shadow: grey 1px 1px 15px 1px;
   border-radius: 10px;
-  padding: 10px 10px;
+  padding: 25px 0px;
+  gap: 10px;
 }
 
-.placeholder p {
+.holder-name {
   font-size: 3.5vw;
+  color: black;
+  font-weight: 600;
+}
+
+.holder-portfolio {
+  font-size: 2.5vw;
   color: red;
   font-weight: 600;
-  padding: 5px 0px;
+  cursor: pointer;
 }
 
 
@@ -1132,45 +1128,44 @@ nav ul {
     gap: 25px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 75px;
+    padding-top: 25px;
+    padding-bottom: 50px;
   }
-
+  
   #porfolio-header p {
-    font-size: 4.5vw;
+    font-size: 5vw;
     color: red;
     font-weight: 900;
-    margin-left: 100%;
-    padding: 25px 0px;
+    margin-left: 80%;
   }
-
-  .portfolio-container {
+  
+  .place-holder {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: auto;
     height: auto;
     background-color: white;
     box-shadow: grey 1px 1px 15px 1px;
     border-radius: 10px;
-    padding: 25px 25px;
+    padding: 25px 0px;
+    gap: 10px;
   }
-
-  .placeholder {
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: white;
-    box-shadow: grey 1px 1px 15px 1px;
-    border-radius: 10px;
-    padding: 10px 10px;
+  
+  .holder-name {
+    font-size: 2.5vw;
+    color: black;
+    font-weight: 600;
   }
-
-  .placeholder p {
-    font-size: 3vw;
+  
+  .holder-portfolio {
+    font-size: 1.5vw;
     color: red;
     font-weight: 600;
-    padding: 5px 0px;
-  }
+    cursor: pointer;
+  }  
 }
     
 
@@ -1499,43 +1494,42 @@ nav ul {
     gap: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 100px;
   }
 
   #porfolio-header p {
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: red;
     font-weight: 900;
-    margin-left: 100%;
+    margin-left: 95%;
   }
 
-  .portfolio-container {
+  .place-holder {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: auto;
-    background-color: white;
-    box-shadow: grey 1px 1px 15px 1px;
-    border-radius: 10px;
-    padding: 25px 25px;
-  }
-
-  .placeholder {
     text-align: center;
     width: auto;
     height: auto;
     background-color: white;
     box-shadow: grey 1px 1px 15px 1px;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 25px 0px;
+    gap: 10px;
   }
-
-  .placeholder p {
+  
+  .holder-name {
+    font-size: 2vw;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .holder-portfolio {
     font-size: 1.5vw;
     color: red;
     font-weight: 600;
-    padding: 5px 0px;
-  }
+    cursor: pointer;
+  }  
 }
