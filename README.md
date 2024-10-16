@@ -22,7 +22,7 @@ Submit a pull request :D
 2024 - 2025
 
 ## Credits
-Dixie, Tapshveer, Meetinder, Thansee
+Tapshveer, Meetinder, Thansee
 
 ## License
 MIT License
