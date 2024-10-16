@@ -42,10 +42,10 @@ nav ul {
 }
 
 .hamburger {
-  width: 35px;
+  width: 8%;
   float: right;
   margin: 20px 35px;
-  max-width: 45px;
+  max-width: 35px;
   cursor: pointer;
 }
 
@@ -392,6 +392,11 @@ nav ul {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
 }
 
+.finalist-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .finalist-number{
   font-size: 3.5vw;
   font-weight: 600;
@@ -504,18 +509,57 @@ nav ul {
   font-weight: 900;
   margin: 45px 0px 0px 0px;
   color: red;
-
   padding-bottom: 10px;
 }
 
 .honorable-image{
   width: 100%; 
-  max-width: 600px; 
   height: auto; 
   border-radius: 15px; 
   display: block; 
   margin: 30px auto; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+  padding: 0px 0px;
+}
+
+.honorable-image:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.honorable-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.honorable-team {
+  justify-content: center;
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.honorable-team:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+
+.honorable-text {
+  font-size: 3vw;
+  font-weight: 400;
+  padding: 0px 10px;
+}
+
+.honorable-names:hover {
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /* Interactive Media design */
@@ -1042,12 +1086,51 @@ nav ul {
 
   .honorable-image{
     width: 100%; 
-    max-width: 600px; 
     height: auto; 
     border-radius: 15px; 
     display: block; 
     margin: 30px auto; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+    padding: 0px 0px;
+  }
+  
+  .honorable-image:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .honorable-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .honorable-team {
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  .honorable-team:hover {
+    color: red;
+    transform: scale(1.1)
+  }
+  
+  .honorable-text {
+    font-size: 2vw;
+    font-weight: 400;
+    padding: 0px 30px;
+  }
+  
+  .honorable-names:hover {
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
   }
 
   /* Interactive Media design */
@@ -1407,8 +1490,56 @@ nav ul {
     font-weight: 800;
     margin: 45px 0px 0px 0px;
     color: red;
-  
     padding-bottom: 10px;
+  }
+
+  .honorable-image{
+    width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    display: block; 
+    margin: 30px auto; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+    padding: 0px 0px;
+  }
+  
+  .honorable-image:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .honorable-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  .honorable-team {
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  
+  .honorable-team:hover {
+    color: red;
+    transform: scale(1.1)
+  }
+  
+  .honorable-text {
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 0px 30px;
+  }
+  
+  .honorable-names:hover {
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
   }
 
   /* Interactive Media design */
