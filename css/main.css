@@ -489,6 +489,7 @@ nav ul {
 /*HONORABLE MENTIONS*/
 
 .honorable-container{
+  position: relative;
   margin-bottom:10px;
   padding: 0 5%;
 }
@@ -1438,7 +1439,7 @@ nav ul {
   }
 
   .btnFinalist:hover {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 
   /* Project Exhibit */
